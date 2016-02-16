@@ -73,7 +73,7 @@ public class StreamAdminServiceClient {
 	 */
 
 	public void doSomeTestingTasks() {
-		GetAllEventStreamDefinitionDtoResponse gaesdr = null;
+		/*GetAllEventStreamDefinitionDtoResponse gaesdr = null;
 		try {
 			gaesdr = serviceAdminStub
 					.getAllEventStreamDefinitionDto(new GetAllEventStreamDefinitionDto());
@@ -96,14 +96,12 @@ public class StreamAdminServiceClient {
 			e.printStackTrace();
 		}
 		System.out.println("getStreamDetailsForStreamId:"
-				+ getStreamDetailsForStreamIdResponse.toString());
+				+ getStreamDetailsForStreamIdResponse.toString());*/
 
 		AddEventStreamDefinitionAsString addEventStreamDefinitionAsString = new AddEventStreamDefinitionAsString();
 		AddEventStreamDefinitionAsStringResponse addEventStreamDefinitionAsStringResponse = null;
-		// addEventStreamDefinitionAsString.setStreamStringDefinition("{\"streamId\": \"org.wso2.test:1.0.0\",\"name\": \"org.wso2.test\",\"version\": \"1.0.0\",  \"nickName\": \"TestStream\",  \"description\": \"Test Stream\",  \"metaData\": [    {      \"name\": \"ip\",      \"type\": \"STRING\"    }  ],  \"correlationData\": [    {      \"name\": \"id\",      \"type\": \"LONG\"    }  ],  \"payloadData\": [    {      \"name\": \"testMessage\",    \"type\": \"STRING\"   }  ]}\"");
-		// addEventStreamDefinitionAsString.setStreamStringDefinition("{ \"streamId\": \"org.wso2.test:1.0.0\",  			  \"name\": \"org.wso2.test\",    			  \"version\": \"1.0.0\",    			  \"nickName\": \"TestStream\",    			  \"description\": \"Test Stream\"   			}");
 		addEventStreamDefinitionAsString
-				.setStreamStringDefinition("{ \"streamId\": \"org.wso2.test9:1.0.0\",  			  \"name\": \"org.wso2.test18\",    			  \"version\": \"1.0.0\",    			  \"nickName\": \"TestStream\",    			  \"description\": \"Test Stream\", \"metaData\": [    {      \"name\": \"ip\",      \"type\": \"STRING\"    }  ],  \"correlationData\": [    {      \"name\": \"id\",      \"type\": \"LONG\"    }  ],  \"payloadData\": [    {      \"name\": \"testMessage\",    \"type\": \"STRING\"   }  ]}");
+				.setStreamStringDefinition("{ \"streamId\": \"org.wso2.test9:1.0.0\",  			  \"name\": \"org.wso2.test19\",    			  \"version\": \"1.0.0\",    			  \"nickName\": \"TestStream\",    			  \"description\": \"Test Stream\", \"metaData\": [    {      \"name\": \"ip\",      \"type\": \"STRING\"    }  ],  \"correlationData\": [    {      \"name\": \"id\",      \"type\": \"LONG\"    }  ],  \"payloadData\": [    {      \"name\": \"testMessage\",    \"type\": \"STRING\"   }  ]}");
 		try {
 			addEventStreamDefinitionAsStringResponse = serviceAdminStub
 					.addEventStreamDefinitionAsString(addEventStreamDefinitionAsString);
