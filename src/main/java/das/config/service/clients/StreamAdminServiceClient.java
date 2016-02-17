@@ -101,7 +101,7 @@ public class StreamAdminServiceClient {
 		AddEventStreamDefinitionAsString addEventStreamDefinitionAsString = new AddEventStreamDefinitionAsString();
 		AddEventStreamDefinitionAsStringResponse addEventStreamDefinitionAsStringResponse = null;
 		addEventStreamDefinitionAsString
-				.setStreamStringDefinition("{ \"streamId\": \"org.wso2.test9:1.0.0\",  			  \"name\": \"org.wso2.test19\",    			  \"version\": \"1.0.0\",    			  \"nickName\": \"TestStream\",    			  \"description\": \"Test Stream\", \"metaData\": [    {      \"name\": \"ip\",      \"type\": \"STRING\"    }  ],  \"correlationData\": [    {      \"name\": \"id\",      \"type\": \"LONG\"    }  ],  \"payloadData\": [    {      \"name\": \"testMessage\",    \"type\": \"STRING\"   }  ]}");
+				.setStreamStringDefinition("{ \"streamId\": \"org.wso2.test9:1.0.0\",  			  \"name\": \"org.wso2.test1\",    			  \"version\": \"1.0.0\",    			  \"nickName\": \"TestStream\",    			  \"description\": \"Test Stream\", \"metaData\": [    {      \"name\": \"ip\",      \"type\": \"STRING\"    }  ],  \"correlationData\": [    {      \"name\": \"id\",      \"type\": \"LONG\"    }  ],  \"payloadData\": [    {      \"name\": \"testMessage\",    \"type\": \"STRING\"   }  ]}");
 		try {
 			addEventStreamDefinitionAsStringResponse = serviceAdminStub
 					.addEventStreamDefinitionAsString(addEventStreamDefinitionAsString);

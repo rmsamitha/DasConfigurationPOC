@@ -36,5 +36,10 @@
 			<version>1.6.1.wso2v5</version>
 		</dependency>
 
+		<dependency>
+			<groupId>org.wso2.carbon.analytics-common</groupId>
+			<artifactId>org.wso2.carbon.event.receiver.stub</artifactId>
+			<version>5.0.8</version>
+		</dependency>
 	</dependencies>
 </project>

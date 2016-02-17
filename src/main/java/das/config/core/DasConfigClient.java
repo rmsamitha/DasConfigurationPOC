@@ -30,11 +30,11 @@ public class DasConfigClient {
 				backEndUrl, session);
 		System.out.println("getEventStreamNames::"
 				+ streamAdminServiceClient.getGG());
-		streamAdminServiceClient.doSomeTestingTasks();
-	*/
+		streamAdminServiceClient.doSomeTestingTasks();*/
+
 
 		ReceiverAdminServiceClient receiverAdminServiceClient= new ReceiverAdminServiceClient(backEndUrl, session);
-		receiverAdminServiceClient.deployEventReceiverConfiguration("TestEventReceiver1", "SMARTHOME_DATA:1.0.0", "wso2event");
+		receiverAdminServiceClient.deployEventReceiverConfiguration("TestEventReceiver5", "TestStream:1.0.0", "wso2event");
 		//receiverAdminServiceClient.deployEventReceiverConfiguration(eventReceiverName, streamNameWithVersion, eventAdapterType);
 		//EventReceiverAdminServiceStub eventReceiverAdminServiceStub=new EventReceiverAdminServiceStub(backEndUrl);
 		

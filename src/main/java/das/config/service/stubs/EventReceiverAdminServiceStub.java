@@ -1,17 +1,22 @@
+/*
 
+*/
 /**
  * EventReceiverAdminServiceStub.java
  *
  * This file was auto-generated from WSDL
  * by the Apache Axis2 version: 1.6.1-wso2v14  Built on : Jul 25, 2015 (11:19:54 IST)
- */
+ *//*
+
         package das.config.service.stubs;
 
         
 
-        /*
-        *  EventReceiverAdminServiceStub java implementation
         */
+/*
+        *  EventReceiverAdminServiceStub java implementation
+        *//*
+
 
         
         public class EventReceiverAdminServiceStub extends org.apache.axis2.client.Stub
@@ -331,9 +336,11 @@
 
     }
 
-    /**
+    */
+/**
       *Constructor that takes in a configContext
-      */
+      *//*
+
 
     public EventReceiverAdminServiceStub(org.apache.axis2.context.ConfigurationContext configurationContext,
        java.lang.String targetEndpoint)
@@ -342,9 +349,11 @@
    }
 
 
-   /**
+   */
+/**
      * Constructor that takes in a configContext  and useseperate listner
-     */
+     *//*
+
    public EventReceiverAdminServiceStub(org.apache.axis2.context.ConfigurationContext configurationContext,
         java.lang.String targetEndpoint, boolean useSeparateListener)
         throws org.apache.axis2.AxisFault {
@@ -365,27 +374,33 @@
     
     }
 
-    /**
+    */
+/**
      * Default Constructor
-     */
+     *//*
+
     public EventReceiverAdminServiceStub(org.apache.axis2.context.ConfigurationContext configurationContext) throws org.apache.axis2.AxisFault {
         
                     this(configurationContext,"https://10.100.7.124:9443/services/EventReceiverAdminService.EventReceiverAdminServiceHttpsSoap12Endpoint/" );
                 
     }
 
-    /**
+    */
+/**
      * Default Constructor
-     */
+     *//*
+
     public EventReceiverAdminServiceStub() throws org.apache.axis2.AxisFault {
         
                     this("https://10.100.7.124:9443/services/EventReceiverAdminService.EventReceiverAdminServiceHttpsSoap12Endpoint/" );
                 
     }
 
-    /**
+    */
+/**
      * Constructor taking the target endpoint
-     */
+     *//*
+
     public EventReceiverAdminServiceStub(java.lang.String targetEndpoint) throws org.apache.axis2.AxisFault {
         this(null,targetEndpoint);
     }
@@ -393,13 +408,15 @@
 
 
         
-                    /**
+                    */
+/**
                      * Auto generated method signature
                      * 
                      * @see org.wso2.carbon.event.receiver.admin.EventReceiverAdminService#deployMapEventReceiverConfiguration
                      * @param deployMapEventReceiverConfiguration
                     
-                     */
+                     *//*
+
 
                     
 
@@ -514,13 +531,15 @@
             }
         }
             
-                    /**
+                    */
+/**
                      * Auto generated method signature
                      * 
                      * @see org.wso2.carbon.event.receiver.admin.EventReceiverAdminService#editActiveEventReceiverConfiguration
                      * @param editActiveEventReceiverConfiguration
                     
-                     */
+                     *//*
+
 
                     
 
@@ -635,13 +654,15 @@
             }
         }
             
-                    /**
+                    */
+/**
                      * Auto generated method signature
                      * 
                      * @see org.wso2.carbon.event.receiver.admin.EventReceiverAdminService#getAllStreamSpecificActiveEventReceiverConfigurations
                      * @param getAllStreamSpecificActiveEventReceiverConfigurations
                     
-                     */
+                     *//*
+
 
                     
 
@@ -756,13 +777,15 @@
             }
         }
             
-                    /**
+                    */
+/**
                      * Auto generated method signature
                      * 
                      * @see org.wso2.carbon.event.receiver.admin.EventReceiverAdminService#isReceiverStatisticsEnabled
                      * @param isReceiverStatisticsEnabled
                     
-                     */
+                     *//*
+
 
                     
 
@@ -877,13 +900,15 @@
             }
         }
             
-                    /**
+                    */
+/**
                      * Auto generated method signature
                      * 
                      * @see org.wso2.carbon.event.receiver.admin.EventReceiverAdminService#getAllInactiveEventReceiverConfigurations
                      * @param getAllInactiveEventReceiverConfigurations
                     
-                     */
+                     *//*
+
 
                     
 
@@ -998,13 +1023,15 @@
             }
         }
             
-                    /**
+                    */
+/**
                      * Auto generated method signature
                      * 
                      * @see org.wso2.carbon.event.receiver.admin.EventReceiverAdminService#isReceiverEditable
                      * @param isReceiverEditable
                     
-                     */
+                     *//*
+
 
                     
 
@@ -1119,13 +1146,15 @@
             }
         }
             
-                    /**
+                    */
+/**
                      * Auto generated method signature
                      * 
                      * @see org.wso2.carbon.event.receiver.admin.EventReceiverAdminService#getInactiveEventReceiverConfigurationContent
                      * @param getInactiveEventReceiverConfigurationContent
                     
-                     */
+                     *//*
+
 
                     
 
@@ -1240,13 +1269,15 @@
             }
         }
             
-                    /**
+                    */
+/**
                      * Auto generated method signature
                      * 
                      * @see org.wso2.carbon.event.receiver.admin.EventReceiverAdminService#undeployInactiveEventReceiverConfiguration
                      * @param undeployInactiveEventReceiverConfiguration
                     
-                     */
+                     *//*
+
 
                     
 
@@ -1361,13 +1392,15 @@
             }
         }
             
-                    /**
+                    */
+/**
                      * Auto generated method signature
                      * 
                      * @see org.wso2.carbon.event.receiver.admin.EventReceiverAdminService#deployXmlEventReceiverConfiguration
                      * @param deployXmlEventReceiverConfiguration
                     
-                     */
+                     *//*
+
 
                     
 
@@ -1482,13 +1515,15 @@
             }
         }
             
-                    /**
+                    */
+/**
                      * Auto generated method signature
                      * 
                      * @see org.wso2.carbon.event.receiver.admin.EventReceiverAdminService#deployTextEventReceiverConfiguration
                      * @param deployTextEventReceiverConfiguration
                     
-                     */
+                     *//*
+
 
                     
 
@@ -1603,13 +1638,15 @@
             }
         }
             
-                    /**
+                    */
+/**
                      * Auto generated method signature
                      * 
                      * @see org.wso2.carbon.event.receiver.admin.EventReceiverAdminService#editInactiveEventReceiverConfiguration
                      * @param editInactiveEventReceiverConfiguration
                     
-                     */
+                     *//*
+
 
                     
 
@@ -1724,13 +1761,15 @@
             }
         }
             
-                    /**
+                    */
+/**
                      * Auto generated method signature
                      * 
                      * @see org.wso2.carbon.event.receiver.admin.EventReceiverAdminService#deployJsonEventReceiverConfiguration
                      * @param deployJsonEventReceiverConfiguration
                     
-                     */
+                     *//*
+
 
                     
 
@@ -1845,13 +1884,15 @@
             }
         }
             
-                    /**
+                    */
+/**
                      * Auto generated method signature
                      * 
                      * @see org.wso2.carbon.event.receiver.admin.EventReceiverAdminService#isReceiverTraceEnabled
                      * @param isReceiverTraceEnabled
                     
-                     */
+                     *//*
+
 
                     
 
@@ -1966,13 +2007,15 @@
             }
         }
             
-                    /**
+                    */
+/**
                      * Auto generated method signature
                      * 
                      * @see org.wso2.carbon.event.receiver.admin.EventReceiverAdminService#setStatisticsEnabled
                      * @param setStatisticsEnabled
                     
-                     */
+                     *//*
+
 
                     
 
@@ -2087,13 +2130,15 @@
             }
         }
             
-                    /**
+                    */
+/**
                      * Auto generated method signature
                      * 
                      * @see org.wso2.carbon.event.receiver.admin.EventReceiverAdminService#getAllActiveEventReceiverConfigurations
                      * @param getAllActiveEventReceiverConfigurations
                     
-                     */
+                     *//*
+
 
                     
 
@@ -2208,13 +2253,15 @@
             }
         }
             
-                    /**
+                    */
+/**
                      * Auto generated method signature
                      * 
                      * @see org.wso2.carbon.event.receiver.admin.EventReceiverAdminService#getAllInputAdapterTypes
                      * @param getAllInputAdapterTypes
                     
-                     */
+                     *//*
+
 
                     
 
@@ -2329,13 +2376,15 @@
             }
         }
             
-                    /**
+                    */
+/**
                      * Auto generated method signature
                      * 
                      * @see org.wso2.carbon.event.receiver.admin.EventReceiverAdminService#deployWso2EventReceiverConfiguration
                      * @param deployWso2EventReceiverConfiguration
                     
-                     */
+                     *//*
+
 
                     
 
@@ -2450,13 +2499,15 @@
             }
         }
             
-                    /**
+                    */
+/**
                      * Auto generated method signature
                      * 
                      * @see org.wso2.carbon.event.receiver.admin.EventReceiverAdminService#getActiveEventReceiverConfiguration
                      * @param getActiveEventReceiverConfiguration
                     
-                     */
+                     *//*
+
 
                     
 
@@ -2571,13 +2622,15 @@
             }
         }
             
-                    /**
+                    */
+/**
                      * Auto generated method signature
                      * 
                      * @see org.wso2.carbon.event.receiver.admin.EventReceiverAdminService#deployEventReceiverConfiguration
                      * @param deployEventReceiverConfiguration
                     
-                     */
+                     *//*
+
 
                     
 
@@ -2692,13 +2745,15 @@
             }
         }
             
-                    /**
+                    */
+/**
                      * Auto generated method signature
                      * 
                      * @see org.wso2.carbon.event.receiver.admin.EventReceiverAdminService#getActiveEventReceiverConfigurationContent
                      * @param getActiveEventReceiverConfigurationContent
                     
-                     */
+                     *//*
+
 
                     
 
@@ -2813,13 +2868,15 @@
             }
         }
             
-                    /**
+                    */
+/**
                      * Auto generated method signature
                      * 
                      * @see org.wso2.carbon.event.receiver.admin.EventReceiverAdminService#setTracingEnabled
                      * @param setTracingEnabled
                     
-                     */
+                     *//*
+
 
                     
 
@@ -2934,13 +2991,15 @@
             }
         }
             
-                    /**
+                    */
+/**
                      * Auto generated method signature
                      * 
                      * @see org.wso2.carbon.event.receiver.admin.EventReceiverAdminService#undeployActiveEventReceiverConfiguration
                      * @param undeployActiveEventReceiverConfiguration
                     
-                     */
+                     *//*
+
 
                     
 
@@ -3055,13 +3114,15 @@
             }
         }
             
-                    /**
+                    */
+/**
                      * Auto generated method signature
                      * 
                      * @see org.wso2.carbon.event.receiver.admin.EventReceiverAdminService#getInputAdapterConfigurationSchema
                      * @param getInputAdapterConfigurationSchema
                     
-                     */
+                     *//*
+
 
                     
 
@@ -3178,9 +3239,11 @@
             
 
 
-       /**
+       */
+/**
         *  A utility method that copies the namepaces from the SOAPEnvelope
-        */
+        *//*
+
        private java.util.Map getEnvelopeNamespaces(org.apache.axiom.soap.SOAPEnvelope env){
         java.util.Map returnMap = new java.util.HashMap();
         java.util.Iterator namespaceIterator = env.getAllDeclaredNamespaces();
@@ -3218,17 +3281,21 @@
 
             
 
-                        /**
-                        * field for _return
                         */
+/**
+                        * field for _return
+                        *//*
+
 
                         
                                     protected java.lang.String local_return ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean local_returnTracker = false ;
 
                            public boolean is_returnSpecified(){
@@ -3237,20 +3304,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String get_return(){
                                return local_return;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param _return
-                               */
+                               *//*
+
                                public void set_return(java.lang.String param){
                             local_returnTracker = true;
                                    
@@ -3262,12 +3333,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -3349,9 +3422,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -3370,9 +3445,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -3382,9 +3459,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -3396,9 +3475,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -3421,9 +3502,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -3486,9 +3569,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -3504,10 +3589,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -3532,21 +3619,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static GetInactiveEventReceiverConfigurationContentResponse parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             GetInactiveEventReceiverConfigurationContentResponse object =
                 new GetInactiveEventReceiverConfigurationContentResponse();
@@ -3660,17 +3751,21 @@
 
             
 
-                        /**
-                        * field for _return
                         */
+/**
+                        * field for _return
+                        *//*
+
 
                         
                                     protected java.lang.String local_return ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean local_returnTracker = false ;
 
                            public boolean is_returnSpecified(){
@@ -3679,20 +3774,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String get_return(){
                                return local_return;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param _return
-                               */
+                               *//*
+
                                public void set_return(java.lang.String param){
                             local_returnTracker = true;
                                    
@@ -3704,12 +3803,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -3791,9 +3892,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -3812,9 +3915,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -3824,9 +3929,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -3838,9 +3945,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -3863,9 +3972,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -3928,9 +4039,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -3946,10 +4059,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -3974,21 +4089,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static GetActiveEventReceiverConfigurationContentResponse parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             GetActiveEventReceiverConfigurationContentResponse object =
                 new GetActiveEventReceiverConfigurationContentResponse();
@@ -4102,17 +4221,21 @@
 
             
 
-                        /**
-                        * field for _return
                         */
+/**
+                        * field for _return
+                        *//*
+
 
                         
                                     protected boolean local_return ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean local_returnTracker = false ;
 
                            public boolean is_returnSpecified(){
@@ -4121,20 +4244,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return boolean
-                           */
+                           *//*
+
                            public  boolean get_return(){
                                return local_return;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param _return
-                               */
+                               *//*
+
                                public void set_return(boolean param){
                             
                                        // setting primitive attribute tracker to true
@@ -4149,12 +4276,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -4231,9 +4360,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -4252,9 +4383,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -4264,9 +4397,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -4278,9 +4413,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -4303,9 +4440,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -4368,9 +4507,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -4386,10 +4527,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -4414,21 +4557,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static SetStatisticsEnabledResponse parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             SetStatisticsEnabledResponse object =
                 new SetStatisticsEnabledResponse();
@@ -4538,17 +4685,21 @@
 
             
 
-                        /**
-                        * field for EventReceiverName
                         */
+/**
+                        * field for EventReceiverName
+                        *//*
+
 
                         
                                     protected java.lang.String localEventReceiverName ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localEventReceiverNameTracker = false ;
 
                            public boolean isEventReceiverNameSpecified(){
@@ -4557,20 +4708,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getEventReceiverName(){
                                return localEventReceiverName;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param EventReceiverName
-                               */
+                               *//*
+
                                public void setEventReceiverName(java.lang.String param){
                             localEventReceiverNameTracker = true;
                                    
@@ -4582,12 +4737,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -4669,9 +4826,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -4690,9 +4849,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -4702,9 +4863,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -4716,9 +4879,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -4741,9 +4906,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -4806,9 +4973,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -4824,10 +4993,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -4852,21 +5023,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static IsReceiverTraceEnabled parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             IsReceiverTraceEnabled object =
                 new IsReceiverTraceEnabled();
@@ -4980,17 +5155,21 @@
 
             
 
-                        /**
-                        * field for _return
                         */
+/**
+                        * field for _return
+                        *//*
+
 
                         
                                     protected InputAdapterConfigurationDto local_return ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean local_returnTracker = false ;
 
                            public boolean is_returnSpecified(){
@@ -4999,20 +5178,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return InputAdapterConfigurationDto
-                           */
+                           *//*
+
                            public  InputAdapterConfigurationDto get_return(){
                                return local_return;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param _return
-                               */
+                               *//*
+
                                public void set_return(InputAdapterConfigurationDto param){
                             local_returnTracker = true;
                                    
@@ -5024,12 +5207,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -5105,9 +5290,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -5126,9 +5313,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -5138,9 +5327,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -5152,9 +5343,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -5177,9 +5370,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -5242,9 +5437,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -5260,10 +5457,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -5289,21 +5488,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static GetInputAdapterConfigurationSchemaResponse parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             GetInputAdapterConfigurationSchemaResponse object =
                 new GetInputAdapterConfigurationSchemaResponse();
@@ -5413,17 +5616,21 @@
 
             
 
-                        /**
-                        * field for EventReceiverName
                         */
+/**
+                        * field for EventReceiverName
+                        *//*
+
 
                         
                                     protected java.lang.String localEventReceiverName ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localEventReceiverNameTracker = false ;
 
                            public boolean isEventReceiverNameSpecified(){
@@ -5432,20 +5639,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getEventReceiverName(){
                                return localEventReceiverName;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param EventReceiverName
-                               */
+                               *//*
+
                                public void setEventReceiverName(java.lang.String param){
                             localEventReceiverNameTracker = true;
                                    
@@ -5457,12 +5668,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -5544,9 +5757,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -5565,9 +5780,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -5577,9 +5794,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -5591,9 +5810,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -5616,9 +5837,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -5681,9 +5904,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -5699,10 +5924,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -5727,21 +5954,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static UndeployActiveEventReceiverConfiguration parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             UndeployActiveEventReceiverConfiguration object =
                 new UndeployActiveEventReceiverConfiguration();
@@ -5855,17 +6086,21 @@
 
             
 
-                        /**
-                        * field for _return
                         */
+/**
+                        * field for _return
+                        *//*
+
 
                         
                                     protected boolean local_return ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean local_returnTracker = false ;
 
                            public boolean is_returnSpecified(){
@@ -5874,20 +6109,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return boolean
-                           */
+                           *//*
+
                            public  boolean get_return(){
                                return local_return;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param _return
-                               */
+                               *//*
+
                                public void set_return(boolean param){
                             
                                        // setting primitive attribute tracker to true
@@ -5902,12 +6141,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -5984,9 +6225,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -6005,9 +6248,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -6017,9 +6262,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -6031,9 +6278,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -6056,9 +6305,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -6121,9 +6372,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -6139,10 +6392,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -6167,21 +6422,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static IsReceiverTraceEnabledResponse parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             IsReceiverTraceEnabledResponse object =
                 new IsReceiverTraceEnabledResponse();
@@ -6291,17 +6550,21 @@
 
             
 
-                        /**
-                        * field for _return
                         */
+/**
+                        * field for _return
+                        *//*
+
 
                         
                                     protected boolean local_return ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean local_returnTracker = false ;
 
                            public boolean is_returnSpecified(){
@@ -6310,20 +6573,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return boolean
-                           */
+                           *//*
+
                            public  boolean get_return(){
                                return local_return;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param _return
-                               */
+                               *//*
+
                                public void set_return(boolean param){
                             
                                        // setting primitive attribute tracker to true
@@ -6338,12 +6605,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -6420,9 +6689,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -6441,9 +6712,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -6453,9 +6726,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -6467,9 +6742,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -6492,9 +6769,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -6557,9 +6836,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -6575,10 +6856,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -6603,21 +6886,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static DeployWso2EventReceiverConfigurationResponse parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             DeployWso2EventReceiverConfigurationResponse object =
                 new DeployWso2EventReceiverConfigurationResponse();
@@ -6727,17 +7014,21 @@
 
             
 
-                        /**
-                        * field for EventReceiverName
                         */
+/**
+                        * field for EventReceiverName
+                        *//*
+
 
                         
                                     protected java.lang.String localEventReceiverName ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localEventReceiverNameTracker = false ;
 
                            public boolean isEventReceiverNameSpecified(){
@@ -6746,20 +7037,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getEventReceiverName(){
                                return localEventReceiverName;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param EventReceiverName
-                               */
+                               *//*
+
                                public void setEventReceiverName(java.lang.String param){
                             localEventReceiverNameTracker = true;
                                    
@@ -6771,12 +7066,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -6858,9 +7155,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -6879,9 +7178,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -6891,9 +7192,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -6905,9 +7208,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -6930,9 +7235,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -6995,9 +7302,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -7013,10 +7322,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -7041,21 +7352,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static IsReceiverEditable parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             IsReceiverEditable object =
                 new IsReceiverEditable();
@@ -7169,17 +7484,21 @@
 
             
 
-                        /**
-                        * field for _return
                         */
+/**
+                        * field for _return
+                        *//*
+
 
                         
                                     protected boolean local_return ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean local_returnTracker = false ;
 
                            public boolean is_returnSpecified(){
@@ -7188,20 +7507,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return boolean
-                           */
+                           *//*
+
                            public  boolean get_return(){
                                return local_return;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param _return
-                               */
+                               *//*
+
                                public void set_return(boolean param){
                             
                                        // setting primitive attribute tracker to true
@@ -7216,12 +7539,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -7298,9 +7623,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -7319,9 +7646,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -7331,9 +7660,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -7345,9 +7676,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -7370,9 +7703,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -7435,9 +7770,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -7453,10 +7790,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -7481,21 +7820,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static DeployTextEventReceiverConfigurationResponse parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             DeployTextEventReceiverConfigurationResponse object =
                 new DeployTextEventReceiverConfigurationResponse();
@@ -7605,17 +7948,21 @@
 
             
 
-                        /**
-                        * field for _return
                         */
+/**
+                        * field for _return
+                        *//*
+
 
                         
                                     protected boolean local_return ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean local_returnTracker = false ;
 
                            public boolean is_returnSpecified(){
@@ -7624,20 +7971,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return boolean
-                           */
+                           *//*
+
                            public  boolean get_return(){
                                return local_return;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param _return
-                               */
+                               *//*
+
                                public void set_return(boolean param){
                             
                                        // setting primitive attribute tracker to true
@@ -7652,12 +8003,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -7734,9 +8087,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -7755,9 +8110,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -7767,9 +8124,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -7781,9 +8140,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -7806,9 +8167,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -7871,9 +8234,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -7889,10 +8254,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -7917,21 +8284,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static DeployJsonEventReceiverConfigurationResponse parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             DeployJsonEventReceiverConfigurationResponse object =
                 new DeployJsonEventReceiverConfigurationResponse();
@@ -8041,17 +8412,21 @@
 
             
 
-                        /**
-                        * field for EventReceiverConfiguration
                         */
+/**
+                        * field for EventReceiverConfiguration
+                        *//*
+
 
                         
                                     protected java.lang.String localEventReceiverConfiguration ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localEventReceiverConfigurationTracker = false ;
 
                            public boolean isEventReceiverConfigurationSpecified(){
@@ -8060,20 +8435,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getEventReceiverConfiguration(){
                                return localEventReceiverConfiguration;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param EventReceiverConfiguration
-                               */
+                               *//*
+
                                public void setEventReceiverConfiguration(java.lang.String param){
                             localEventReceiverConfigurationTracker = true;
                                    
@@ -8083,17 +8462,21 @@
                                }
                             
 
-                        /**
-                        * field for EventReceiverName
                         */
+/**
+                        * field for EventReceiverName
+                        *//*
+
 
                         
                                     protected java.lang.String localEventReceiverName ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localEventReceiverNameTracker = false ;
 
                            public boolean isEventReceiverNameSpecified(){
@@ -8102,20 +8485,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getEventReceiverName(){
                                return localEventReceiverName;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param EventReceiverName
-                               */
+                               *//*
+
                                public void setEventReceiverName(java.lang.String param){
                             localEventReceiverNameTracker = true;
                                    
@@ -8127,12 +8514,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -8232,9 +8621,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -8253,9 +8644,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -8265,9 +8658,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -8279,9 +8674,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -8304,9 +8701,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -8369,9 +8768,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -8387,10 +8788,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -8421,21 +8824,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static EditActiveEventReceiverConfiguration parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             EditActiveEventReceiverConfiguration object =
                 new EditActiveEventReceiverConfiguration();
@@ -8577,17 +8984,21 @@
 
             
 
-                        /**
-                        * field for EventReceiverConfiguration
                         */
+/**
+                        * field for EventReceiverConfiguration
+                        *//*
+
 
                         
                                     protected java.lang.String localEventReceiverConfiguration ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localEventReceiverConfigurationTracker = false ;
 
                            public boolean isEventReceiverConfigurationSpecified(){
@@ -8596,20 +9007,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getEventReceiverConfiguration(){
                                return localEventReceiverConfiguration;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param EventReceiverConfiguration
-                               */
+                               *//*
+
                                public void setEventReceiverConfiguration(java.lang.String param){
                             localEventReceiverConfigurationTracker = true;
                                    
@@ -8619,17 +9034,21 @@
                                }
                             
 
-                        /**
-                        * field for FileName
                         */
+/**
+                        * field for FileName
+                        *//*
+
 
                         
                                     protected java.lang.String localFileName ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localFileNameTracker = false ;
 
                            public boolean isFileNameSpecified(){
@@ -8638,20 +9057,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getFileName(){
                                return localFileName;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param FileName
-                               */
+                               *//*
+
                                public void setFileName(java.lang.String param){
                             localFileNameTracker = true;
                                    
@@ -8663,12 +9086,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -8768,9 +9193,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -8789,9 +9216,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -8801,9 +9230,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -8815,9 +9246,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -8840,9 +9273,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -8905,9 +9340,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -8923,10 +9360,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -8957,21 +9396,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static EditInactiveEventReceiverConfiguration parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             EditInactiveEventReceiverConfiguration object =
                 new EditInactiveEventReceiverConfiguration();
@@ -9195,18 +9638,22 @@
 
             
 
-                        /**
+                        */
+/**
                         * field for _return
                         * This was an Array!
-                        */
+                        *//*
+
 
                         
                                     protected EventReceiverConfigurationInfoDto[] local_return ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean local_returnTracker = false ;
 
                            public boolean is_returnSpecified(){
@@ -9215,10 +9662,12 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return EventReceiverConfigurationInfoDto[]
-                           */
+                           *//*
+
                            public  EventReceiverConfigurationInfoDto[] get_return(){
                                return local_return;
                            }
@@ -9228,18 +9677,22 @@
 
 
                                
-                              /**
+                              */
+/**
                                * validate the array for _return
-                               */
+                               *//*
+
                               protected void validate_return(EventReceiverConfigurationInfoDto[] param){
                              
                               }
 
 
-                             /**
+                             */
+/**
                               * Auto generated setter method
                               * @param param _return
-                              */
+                              *//*
+
                               public void set_return(EventReceiverConfigurationInfoDto[] param){
                               
                                    validate_return(param);
@@ -9251,10 +9704,12 @@
 
                                
                              
-                             /**
+                             */
+/**
                              * Auto generated add method for the array for convenience
                              * @param param EventReceiverConfigurationInfoDto
-                             */
+                             *//*
+
                              public void add_return(EventReceiverConfigurationInfoDto param){
                                    if (local_return == null){
                                    local_return = new EventReceiverConfigurationInfoDto[]{};
@@ -9277,12 +9732,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -9372,9 +9829,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -9393,9 +9852,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -9405,9 +9866,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -9419,9 +9882,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -9444,9 +9909,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -9509,9 +9976,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -9527,10 +9996,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -9574,21 +10045,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static GetAllActiveEventReceiverConfigurationsResponse parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             GetAllActiveEventReceiverConfigurationsResponse object =
                 new GetAllActiveEventReceiverConfigurationsResponse();
@@ -9736,12 +10211,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -9805,9 +10282,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -9826,9 +10305,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -9838,9 +10319,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -9852,9 +10335,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -9877,9 +10362,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -9942,9 +10429,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -9960,10 +10449,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -9982,21 +10473,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static GetAllInactiveEventReceiverConfigurations parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             GetAllInactiveEventReceiverConfigurations object =
                 new GetAllInactiveEventReceiverConfigurations();
@@ -10082,17 +10577,21 @@
 
             
 
-                        /**
-                        * field for _return
                         */
+/**
+                        * field for _return
+                        *//*
+
 
                         
                                     protected boolean local_return ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean local_returnTracker = false ;
 
                            public boolean is_returnSpecified(){
@@ -10101,20 +10600,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return boolean
-                           */
+                           *//*
+
                            public  boolean get_return(){
                                return local_return;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param _return
-                               */
+                               *//*
+
                                public void set_return(boolean param){
                             
                                        // setting primitive attribute tracker to true
@@ -10129,12 +10632,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -10211,9 +10716,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -10232,9 +10739,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -10244,9 +10753,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -10258,9 +10769,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -10283,9 +10796,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -10348,9 +10863,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -10366,10 +10883,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -10394,21 +10913,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static EditInactiveEventReceiverConfigurationResponse parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             EditInactiveEventReceiverConfigurationResponse object =
                 new EditInactiveEventReceiverConfigurationResponse();
@@ -10518,17 +11041,21 @@
 
             
 
-                        /**
-                        * field for EventReceiverName
                         */
+/**
+                        * field for EventReceiverName
+                        *//*
+
 
                         
                                     protected java.lang.String localEventReceiverName ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localEventReceiverNameTracker = false ;
 
                            public boolean isEventReceiverNameSpecified(){
@@ -10537,20 +11064,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getEventReceiverName(){
                                return localEventReceiverName;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param EventReceiverName
-                               */
+                               *//*
+
                                public void setEventReceiverName(java.lang.String param){
                             localEventReceiverNameTracker = true;
                                    
@@ -10560,17 +11091,21 @@
                                }
                             
 
-                        /**
-                        * field for StreamNameWithVersion
                         */
+/**
+                        * field for StreamNameWithVersion
+                        *//*
+
 
                         
                                     protected java.lang.String localStreamNameWithVersion ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localStreamNameWithVersionTracker = false ;
 
                            public boolean isStreamNameWithVersionSpecified(){
@@ -10579,20 +11114,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getStreamNameWithVersion(){
                                return localStreamNameWithVersion;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param StreamNameWithVersion
-                               */
+                               *//*
+
                                public void setStreamNameWithVersion(java.lang.String param){
                             localStreamNameWithVersionTracker = true;
                                    
@@ -10602,17 +11141,21 @@
                                }
                             
 
-                        /**
-                        * field for EventAdapterType
                         */
+/**
+                        * field for EventAdapterType
+                        *//*
+
 
                         
                                     protected java.lang.String localEventAdapterType ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localEventAdapterTypeTracker = false ;
 
                            public boolean isEventAdapterTypeSpecified(){
@@ -10621,20 +11164,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getEventAdapterType(){
                                return localEventAdapterType;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param EventAdapterType
-                               */
+                               *//*
+
                                public void setEventAdapterType(java.lang.String param){
                             localEventAdapterTypeTracker = true;
                                    
@@ -10644,18 +11191,22 @@
                                }
                             
 
-                        /**
+                        */
+/**
                         * field for InputMappings
                         * This was an Array!
-                        */
+                        *//*
+
 
                         
                                     protected EventMappingPropertyDto[] localInputMappings ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localInputMappingsTracker = false ;
 
                            public boolean isInputMappingsSpecified(){
@@ -10664,10 +11215,12 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return EventMappingPropertyDto[]
-                           */
+                           *//*
+
                            public  EventMappingPropertyDto[] getInputMappings(){
                                return localInputMappings;
                            }
@@ -10677,18 +11230,22 @@
 
 
                                
-                              /**
+                              */
+/**
                                * validate the array for InputMappings
-                               */
+                               *//*
+
                               protected void validateInputMappings(EventMappingPropertyDto[] param){
                              
                               }
 
 
-                             /**
+                             */
+/**
                               * Auto generated setter method
                               * @param param InputMappings
-                              */
+                              *//*
+
                               public void setInputMappings(EventMappingPropertyDto[] param){
                               
                                    validateInputMappings(param);
@@ -10700,10 +11257,12 @@
 
                                
                              
-                             /**
+                             */
+/**
                              * Auto generated add method for the array for convenience
                              * @param param EventMappingPropertyDto
-                             */
+                             *//*
+
                              public void addInputMappings(EventMappingPropertyDto param){
                                    if (localInputMappings == null){
                                    localInputMappings = new EventMappingPropertyDto[]{};
@@ -10724,18 +11283,22 @@
                              }
                              
 
-                        /**
+                        */
+/**
                         * field for InputPropertyConfiguration
                         * This was an Array!
-                        */
+                        *//*
+
 
                         
                                     protected BasicInputAdapterPropertyDto[] localInputPropertyConfiguration ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localInputPropertyConfigurationTracker = false ;
 
                            public boolean isInputPropertyConfigurationSpecified(){
@@ -10744,10 +11307,12 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return BasicInputAdapterPropertyDto[]
-                           */
+                           *//*
+
                            public  BasicInputAdapterPropertyDto[] getInputPropertyConfiguration(){
                                return localInputPropertyConfiguration;
                            }
@@ -10757,18 +11322,22 @@
 
 
                                
-                              /**
+                              */
+/**
                                * validate the array for InputPropertyConfiguration
-                               */
+                               *//*
+
                               protected void validateInputPropertyConfiguration(BasicInputAdapterPropertyDto[] param){
                              
                               }
 
 
-                             /**
+                             */
+/**
                               * Auto generated setter method
                               * @param param InputPropertyConfiguration
-                              */
+                              *//*
+
                               public void setInputPropertyConfiguration(BasicInputAdapterPropertyDto[] param){
                               
                                    validateInputPropertyConfiguration(param);
@@ -10780,10 +11349,12 @@
 
                                
                              
-                             /**
+                             */
+/**
                              * Auto generated add method for the array for convenience
                              * @param param BasicInputAdapterPropertyDto
-                             */
+                             *//*
+
                              public void addInputPropertyConfiguration(BasicInputAdapterPropertyDto param){
                                    if (localInputPropertyConfiguration == null){
                                    localInputPropertyConfiguration = new BasicInputAdapterPropertyDto[]{};
@@ -10804,17 +11375,21 @@
                              }
                              
 
-                        /**
-                        * field for MappingEnabled
                         */
+/**
+                        * field for MappingEnabled
+                        *//*
+
 
                         
                                     protected boolean localMappingEnabled ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localMappingEnabledTracker = false ;
 
                            public boolean isMappingEnabledSpecified(){
@@ -10823,20 +11398,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return boolean
-                           */
+                           *//*
+
                            public  boolean getMappingEnabled(){
                                return localMappingEnabled;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param MappingEnabled
-                               */
+                               *//*
+
                                public void setMappingEnabled(boolean param){
                             
                                        // setting primitive attribute tracker to true
@@ -10851,12 +11430,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -11039,9 +11620,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -11060,9 +11643,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -11072,9 +11657,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -11086,9 +11673,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -11111,9 +11700,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -11176,9 +11767,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -11194,10 +11787,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -11290,21 +11885,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static DeployJsonEventReceiverConfiguration parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             DeployJsonEventReceiverConfiguration object =
                 new DeployJsonEventReceiverConfiguration();
@@ -11618,17 +12217,21 @@
 
             
 
-                        /**
-                        * field for EventReceiverName
                         */
+/**
+                        * field for EventReceiverName
+                        *//*
+
 
                         
                                     protected java.lang.String localEventReceiverName ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localEventReceiverNameTracker = false ;
 
                            public boolean isEventReceiverNameSpecified(){
@@ -11637,20 +12240,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getEventReceiverName(){
                                return localEventReceiverName;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param EventReceiverName
-                               */
+                               *//*
+
                                public void setEventReceiverName(java.lang.String param){
                             localEventReceiverNameTracker = true;
                                    
@@ -11660,17 +12267,21 @@
                                }
                             
 
-                        /**
-                        * field for StreamNameWithVersion
                         */
+/**
+                        * field for StreamNameWithVersion
+                        *//*
+
 
                         
                                     protected java.lang.String localStreamNameWithVersion ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localStreamNameWithVersionTracker = false ;
 
                            public boolean isStreamNameWithVersionSpecified(){
@@ -11679,20 +12290,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getStreamNameWithVersion(){
                                return localStreamNameWithVersion;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param StreamNameWithVersion
-                               */
+                               *//*
+
                                public void setStreamNameWithVersion(java.lang.String param){
                             localStreamNameWithVersionTracker = true;
                                    
@@ -11702,17 +12317,21 @@
                                }
                             
 
-                        /**
-                        * field for EventAdapterType
                         */
+/**
+                        * field for EventAdapterType
+                        *//*
+
 
                         
                                     protected java.lang.String localEventAdapterType ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localEventAdapterTypeTracker = false ;
 
                            public boolean isEventAdapterTypeSpecified(){
@@ -11721,20 +12340,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getEventAdapterType(){
                                return localEventAdapterType;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param EventAdapterType
-                               */
+                               *//*
+
                                public void setEventAdapterType(java.lang.String param){
                             localEventAdapterTypeTracker = true;
                                    
@@ -11744,18 +12367,22 @@
                                }
                             
 
-                        /**
+                        */
+/**
                         * field for InputMappings
                         * This was an Array!
-                        */
+                        *//*
+
 
                         
                                     protected EventMappingPropertyDto[] localInputMappings ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localInputMappingsTracker = false ;
 
                            public boolean isInputMappingsSpecified(){
@@ -11764,10 +12391,12 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return EventMappingPropertyDto[]
-                           */
+                           *//*
+
                            public  EventMappingPropertyDto[] getInputMappings(){
                                return localInputMappings;
                            }
@@ -11777,18 +12406,22 @@
 
 
                                
-                              /**
+                              */
+/**
                                * validate the array for InputMappings
-                               */
+                               *//*
+
                               protected void validateInputMappings(EventMappingPropertyDto[] param){
                              
                               }
 
 
-                             /**
+                             */
+/**
                               * Auto generated setter method
                               * @param param InputMappings
-                              */
+                              *//*
+
                               public void setInputMappings(EventMappingPropertyDto[] param){
                               
                                    validateInputMappings(param);
@@ -11800,10 +12433,12 @@
 
                                
                              
-                             /**
+                             */
+/**
                              * Auto generated add method for the array for convenience
                              * @param param EventMappingPropertyDto
-                             */
+                             *//*
+
                              public void addInputMappings(EventMappingPropertyDto param){
                                    if (localInputMappings == null){
                                    localInputMappings = new EventMappingPropertyDto[]{};
@@ -11824,18 +12459,22 @@
                              }
                              
 
-                        /**
+                        */
+/**
                         * field for InputPropertyConfiguration
                         * This was an Array!
-                        */
+                        *//*
+
 
                         
                                     protected BasicInputAdapterPropertyDto[] localInputPropertyConfiguration ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localInputPropertyConfigurationTracker = false ;
 
                            public boolean isInputPropertyConfigurationSpecified(){
@@ -11844,10 +12483,12 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return BasicInputAdapterPropertyDto[]
-                           */
+                           *//*
+
                            public  BasicInputAdapterPropertyDto[] getInputPropertyConfiguration(){
                                return localInputPropertyConfiguration;
                            }
@@ -11857,18 +12498,22 @@
 
 
                                
-                              /**
+                              */
+/**
                                * validate the array for InputPropertyConfiguration
-                               */
+                               *//*
+
                               protected void validateInputPropertyConfiguration(BasicInputAdapterPropertyDto[] param){
                              
                               }
 
 
-                             /**
+                             */
+/**
                               * Auto generated setter method
                               * @param param InputPropertyConfiguration
-                              */
+                              *//*
+
                               public void setInputPropertyConfiguration(BasicInputAdapterPropertyDto[] param){
                               
                                    validateInputPropertyConfiguration(param);
@@ -11880,10 +12525,12 @@
 
                                
                              
-                             /**
+                             */
+/**
                              * Auto generated add method for the array for convenience
                              * @param param BasicInputAdapterPropertyDto
-                             */
+                             *//*
+
                              public void addInputPropertyConfiguration(BasicInputAdapterPropertyDto param){
                                    if (localInputPropertyConfiguration == null){
                                    localInputPropertyConfiguration = new BasicInputAdapterPropertyDto[]{};
@@ -11904,17 +12551,21 @@
                              }
                              
 
-                        /**
-                        * field for MappingEnabled
                         */
+/**
+                        * field for MappingEnabled
+                        *//*
+
 
                         
                                     protected boolean localMappingEnabled ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localMappingEnabledTracker = false ;
 
                            public boolean isMappingEnabledSpecified(){
@@ -11923,20 +12574,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return boolean
-                           */
+                           *//*
+
                            public  boolean getMappingEnabled(){
                                return localMappingEnabled;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param MappingEnabled
-                               */
+                               *//*
+
                                public void setMappingEnabled(boolean param){
                             
                                        // setting primitive attribute tracker to true
@@ -11951,12 +12606,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -12139,9 +12796,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -12160,9 +12819,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -12172,9 +12833,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -12186,9 +12849,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -12211,9 +12876,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -12276,9 +12943,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -12294,10 +12963,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -12390,21 +13061,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static DeployTextEventReceiverConfiguration parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             DeployTextEventReceiverConfiguration object =
                 new DeployTextEventReceiverConfiguration();
@@ -12718,17 +13393,21 @@
 
             
 
-                        /**
-                        * field for _return
                         */
+/**
+                        * field for _return
+                        *//*
+
 
                         
                                     protected boolean local_return ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean local_returnTracker = false ;
 
                            public boolean is_returnSpecified(){
@@ -12737,20 +13416,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return boolean
-                           */
+                           *//*
+
                            public  boolean get_return(){
                                return local_return;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param _return
-                               */
+                               *//*
+
                                public void set_return(boolean param){
                             
                                        // setting primitive attribute tracker to true
@@ -12765,12 +13448,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -12847,9 +13532,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -12868,9 +13555,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -12880,9 +13569,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -12894,9 +13585,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -12919,9 +13612,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -12984,9 +13679,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -13002,10 +13699,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -13030,21 +13729,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static IsReceiverEditableResponse parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             IsReceiverEditableResponse object =
                 new IsReceiverEditableResponse();
@@ -13146,24 +13849,30 @@
     
         public static class DetailInputAdapterPropertyDto
         implements org.apache.axis2.databinding.ADBBean{
-        /* This type was generated from the piece of schema that had
+        */
+/* This type was generated from the piece of schema that had
                 name = DetailInputAdapterPropertyDto
                 Namespace URI = http://admin.receiver.event.carbon.wso2.org/xsd
                 Namespace Prefix = ns1
-                */
+                *//*
+
             
 
-                        /**
-                        * field for DefaultValue
                         */
+/**
+                        * field for DefaultValue
+                        *//*
+
 
                         
                                     protected java.lang.String localDefaultValue ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localDefaultValueTracker = false ;
 
                            public boolean isDefaultValueSpecified(){
@@ -13172,20 +13881,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getDefaultValue(){
                                return localDefaultValue;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param DefaultValue
-                               */
+                               *//*
+
                                public void setDefaultValue(java.lang.String param){
                             localDefaultValueTracker = true;
                                    
@@ -13195,17 +13908,21 @@
                                }
                             
 
-                        /**
-                        * field for DisplayName
                         */
+/**
+                        * field for DisplayName
+                        *//*
+
 
                         
                                     protected java.lang.String localDisplayName ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localDisplayNameTracker = false ;
 
                            public boolean isDisplayNameSpecified(){
@@ -13214,20 +13931,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getDisplayName(){
                                return localDisplayName;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param DisplayName
-                               */
+                               *//*
+
                                public void setDisplayName(java.lang.String param){
                             localDisplayNameTracker = true;
                                    
@@ -13237,17 +13958,21 @@
                                }
                             
 
-                        /**
-                        * field for Hint
                         */
+/**
+                        * field for Hint
+                        *//*
+
 
                         
                                     protected java.lang.String localHint ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localHintTracker = false ;
 
                            public boolean isHintSpecified(){
@@ -13256,20 +13981,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getHint(){
                                return localHint;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param Hint
-                               */
+                               *//*
+
                                public void setHint(java.lang.String param){
                             localHintTracker = true;
                                    
@@ -13279,17 +14008,21 @@
                                }
                             
 
-                        /**
-                        * field for Key
                         */
+/**
+                        * field for Key
+                        *//*
+
 
                         
                                     protected java.lang.String localKey ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localKeyTracker = false ;
 
                            public boolean isKeySpecified(){
@@ -13298,20 +14031,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getKey(){
                                return localKey;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param Key
-                               */
+                               *//*
+
                                public void setKey(java.lang.String param){
                             localKeyTracker = true;
                                    
@@ -13321,18 +14058,22 @@
                                }
                             
 
-                        /**
+                        */
+/**
                         * field for Options
                         * This was an Array!
-                        */
+                        *//*
+
 
                         
                                     protected java.lang.String[] localOptions ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localOptionsTracker = false ;
 
                            public boolean isOptionsSpecified(){
@@ -13341,10 +14082,12 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String[]
-                           */
+                           *//*
+
                            public  java.lang.String[] getOptions(){
                                return localOptions;
                            }
@@ -13354,18 +14097,22 @@
 
 
                                
-                              /**
+                              */
+/**
                                * validate the array for Options
-                               */
+                               *//*
+
                               protected void validateOptions(java.lang.String[] param){
                              
                               }
 
 
-                             /**
+                             */
+/**
                               * Auto generated setter method
                               * @param param Options
-                              */
+                              *//*
+
                               public void setOptions(java.lang.String[] param){
                               
                                    validateOptions(param);
@@ -13377,10 +14124,12 @@
 
                                
                              
-                             /**
+                             */
+/**
                              * Auto generated add method for the array for convenience
                              * @param param java.lang.String
-                             */
+                             *//*
+
                              public void addOptions(java.lang.String param){
                                    if (localOptions == null){
                                    localOptions = new java.lang.String[]{};
@@ -13401,17 +14150,21 @@
                              }
                              
 
-                        /**
-                        * field for Required
                         */
+/**
+                        * field for Required
+                        *//*
+
 
                         
                                     protected boolean localRequired ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localRequiredTracker = false ;
 
                            public boolean isRequiredSpecified(){
@@ -13420,20 +14173,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return boolean
-                           */
+                           *//*
+
                            public  boolean getRequired(){
                                return localRequired;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param Required
-                               */
+                               *//*
+
                                public void setRequired(boolean param){
                             
                                        // setting primitive attribute tracker to true
@@ -13446,17 +14203,21 @@
                                }
                             
 
-                        /**
-                        * field for Secured
                         */
+/**
+                        * field for Secured
+                        *//*
+
 
                         
                                     protected boolean localSecured ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localSecuredTracker = false ;
 
                            public boolean isSecuredSpecified(){
@@ -13465,20 +14226,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return boolean
-                           */
+                           *//*
+
                            public  boolean getSecured(){
                                return localSecured;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param Secured
-                               */
+                               *//*
+
                                public void setSecured(boolean param){
                             
                                        // setting primitive attribute tracker to true
@@ -13491,17 +14256,21 @@
                                }
                             
 
-                        /**
-                        * field for Value
                         */
+/**
+                        * field for Value
+                        *//*
+
 
                         
                                     protected java.lang.String localValue ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localValueTracker = false ;
 
                            public boolean isValueSpecified(){
@@ -13510,20 +14279,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getValue(){
                                return localValue;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param Value
-                               */
+                               *//*
+
                                public void setValue(java.lang.String param){
                             localValueTracker = true;
                                    
@@ -13535,12 +14308,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -13757,9 +14532,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -13778,9 +14555,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -13790,9 +14569,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -13804,9 +14585,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -13829,9 +14612,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -13894,9 +14679,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -13912,10 +14699,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -14003,21 +14792,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static DetailInputAdapterPropertyDto parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             DetailInputAdapterPropertyDto object =
                 new DetailInputAdapterPropertyDto();
@@ -14344,24 +15137,30 @@
     
         public static class EventMappingPropertyDto
         implements org.apache.axis2.databinding.ADBBean{
-        /* This type was generated from the piece of schema that had
+        */
+/* This type was generated from the piece of schema that had
                 name = EventMappingPropertyDto
                 Namespace URI = http://admin.receiver.event.carbon.wso2.org/xsd
                 Namespace Prefix = ns1
-                */
+                *//*
+
             
 
-                        /**
-                        * field for DefaultValue
                         */
+/**
+                        * field for DefaultValue
+                        *//*
+
 
                         
                                     protected java.lang.String localDefaultValue ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localDefaultValueTracker = false ;
 
                            public boolean isDefaultValueSpecified(){
@@ -14370,20 +15169,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getDefaultValue(){
                                return localDefaultValue;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param DefaultValue
-                               */
+                               *//*
+
                                public void setDefaultValue(java.lang.String param){
                             localDefaultValueTracker = true;
                                    
@@ -14393,17 +15196,21 @@
                                }
                             
 
-                        /**
-                        * field for Name
                         */
+/**
+                        * field for Name
+                        *//*
+
 
                         
                                     protected java.lang.String localName ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localNameTracker = false ;
 
                            public boolean isNameSpecified(){
@@ -14412,20 +15219,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getName(){
                                return localName;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param Name
-                               */
+                               *//*
+
                                public void setName(java.lang.String param){
                             localNameTracker = true;
                                    
@@ -14435,17 +15246,21 @@
                                }
                             
 
-                        /**
-                        * field for Type
                         */
+/**
+                        * field for Type
+                        *//*
+
 
                         
                                     protected java.lang.String localType ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localTypeTracker = false ;
 
                            public boolean isTypeSpecified(){
@@ -14454,20 +15269,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getType(){
                                return localType;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param Type
-                               */
+                               *//*
+
                                public void setType(java.lang.String param){
                             localTypeTracker = true;
                                    
@@ -14477,17 +15296,21 @@
                                }
                             
 
-                        /**
-                        * field for ValueOf
                         */
+/**
+                        * field for ValueOf
+                        *//*
+
 
                         
                                     protected java.lang.String localValueOf ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localValueOfTracker = false ;
 
                            public boolean isValueOfSpecified(){
@@ -14496,20 +15319,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getValueOf(){
                                return localValueOf;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param ValueOf
-                               */
+                               *//*
+
                                public void setValueOf(java.lang.String param){
                             localValueOfTracker = true;
                                    
@@ -14521,12 +15348,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -14662,9 +15491,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -14683,9 +15514,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -14695,9 +15528,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -14709,9 +15544,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -14734,9 +15571,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -14799,9 +15638,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -14817,10 +15658,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -14863,21 +15706,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static EventMappingPropertyDto parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             EventMappingPropertyDto object =
                 new EventMappingPropertyDto();
@@ -15075,17 +15922,21 @@
 
             
 
-                        /**
-                        * field for StreamId
                         */
+/**
+                        * field for StreamId
+                        *//*
+
 
                         
                                     protected java.lang.String localStreamId ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localStreamIdTracker = false ;
 
                            public boolean isStreamIdSpecified(){
@@ -15094,20 +15945,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getStreamId(){
                                return localStreamId;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param StreamId
-                               */
+                               *//*
+
                                public void setStreamId(java.lang.String param){
                             localStreamIdTracker = true;
                                    
@@ -15119,12 +15974,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -15206,9 +16063,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -15227,9 +16086,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -15239,9 +16100,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -15253,9 +16116,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -15278,9 +16143,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -15343,9 +16210,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -15361,10 +16230,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -15389,21 +16260,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static GetAllStreamSpecificActiveEventReceiverConfigurations parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             GetAllStreamSpecificActiveEventReceiverConfigurations object =
                 new GetAllStreamSpecificActiveEventReceiverConfigurations();
@@ -15517,17 +16392,21 @@
 
             
 
-                        /**
-                        * field for EventReceiverName
                         */
+/**
+                        * field for EventReceiverName
+                        *//*
+
 
                         
                                     protected java.lang.String localEventReceiverName ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localEventReceiverNameTracker = false ;
 
                            public boolean isEventReceiverNameSpecified(){
@@ -15536,20 +16415,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getEventReceiverName(){
                                return localEventReceiverName;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param EventReceiverName
-                               */
+                               *//*
+
                                public void setEventReceiverName(java.lang.String param){
                             localEventReceiverNameTracker = true;
                                    
@@ -15561,12 +16444,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -15648,9 +16533,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -15669,9 +16556,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -15681,9 +16570,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -15695,9 +16586,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -15720,9 +16613,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -15785,9 +16680,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -15803,10 +16700,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -15831,21 +16730,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static GetActiveEventReceiverConfigurationContent parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             GetActiveEventReceiverConfigurationContent object =
                 new GetActiveEventReceiverConfigurationContent();
@@ -15959,17 +16862,21 @@
 
             
 
-                        /**
-                        * field for EventReceiverName
                         */
+/**
+                        * field for EventReceiverName
+                        *//*
+
 
                         
                                     protected java.lang.String localEventReceiverName ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localEventReceiverNameTracker = false ;
 
                            public boolean isEventReceiverNameSpecified(){
@@ -15978,20 +16885,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getEventReceiverName(){
                                return localEventReceiverName;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param EventReceiverName
-                               */
+                               *//*
+
                                public void setEventReceiverName(java.lang.String param){
                             localEventReceiverNameTracker = true;
                                    
@@ -16001,17 +16912,21 @@
                                }
                             
 
-                        /**
-                        * field for StreamNameWithVersion
                         */
+/**
+                        * field for StreamNameWithVersion
+                        *//*
+
 
                         
                                     protected java.lang.String localStreamNameWithVersion ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localStreamNameWithVersionTracker = false ;
 
                            public boolean isStreamNameWithVersionSpecified(){
@@ -16020,20 +16935,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getStreamNameWithVersion(){
                                return localStreamNameWithVersion;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param StreamNameWithVersion
-                               */
+                               *//*
+
                                public void setStreamNameWithVersion(java.lang.String param){
                             localStreamNameWithVersionTracker = true;
                                    
@@ -16043,17 +16962,21 @@
                                }
                             
 
-                        /**
-                        * field for EventAdapterType
                         */
+/**
+                        * field for EventAdapterType
+                        *//*
+
 
                         
                                     protected java.lang.String localEventAdapterType ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localEventAdapterTypeTracker = false ;
 
                            public boolean isEventAdapterTypeSpecified(){
@@ -16062,20 +16985,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getEventAdapterType(){
                                return localEventAdapterType;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param EventAdapterType
-                               */
+                               *//*
+
                                public void setEventAdapterType(java.lang.String param){
                             localEventAdapterTypeTracker = true;
                                    
@@ -16085,17 +17012,21 @@
                                }
                             
 
-                        /**
-                        * field for ParentXpath
                         */
+/**
+                        * field for ParentXpath
+                        *//*
+
 
                         
                                     protected java.lang.String localParentXpath ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localParentXpathTracker = false ;
 
                            public boolean isParentXpathSpecified(){
@@ -16104,20 +17035,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getParentXpath(){
                                return localParentXpath;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param ParentXpath
-                               */
+                               *//*
+
                                public void setParentXpath(java.lang.String param){
                             localParentXpathTracker = true;
                                    
@@ -16127,18 +17062,22 @@
                                }
                             
 
-                        /**
+                        */
+/**
                         * field for Namespaces
                         * This was an Array!
-                        */
+                        *//*
+
 
                         
                                     protected EventMappingPropertyDto[] localNamespaces ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localNamespacesTracker = false ;
 
                            public boolean isNamespacesSpecified(){
@@ -16147,10 +17086,12 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return EventMappingPropertyDto[]
-                           */
+                           *//*
+
                            public  EventMappingPropertyDto[] getNamespaces(){
                                return localNamespaces;
                            }
@@ -16160,18 +17101,22 @@
 
 
                                
-                              /**
+                              */
+/**
                                * validate the array for Namespaces
-                               */
+                               *//*
+
                               protected void validateNamespaces(EventMappingPropertyDto[] param){
                              
                               }
 
 
-                             /**
+                             */
+/**
                               * Auto generated setter method
                               * @param param Namespaces
-                              */
+                              *//*
+
                               public void setNamespaces(EventMappingPropertyDto[] param){
                               
                                    validateNamespaces(param);
@@ -16183,10 +17128,12 @@
 
                                
                              
-                             /**
+                             */
+/**
                              * Auto generated add method for the array for convenience
                              * @param param EventMappingPropertyDto
-                             */
+                             *//*
+
                              public void addNamespaces(EventMappingPropertyDto param){
                                    if (localNamespaces == null){
                                    localNamespaces = new EventMappingPropertyDto[]{};
@@ -16207,18 +17154,22 @@
                              }
                              
 
-                        /**
+                        */
+/**
                         * field for InputMappings
                         * This was an Array!
-                        */
+                        *//*
+
 
                         
                                     protected EventMappingPropertyDto[] localInputMappings ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localInputMappingsTracker = false ;
 
                            public boolean isInputMappingsSpecified(){
@@ -16227,10 +17178,12 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return EventMappingPropertyDto[]
-                           */
+                           *//*
+
                            public  EventMappingPropertyDto[] getInputMappings(){
                                return localInputMappings;
                            }
@@ -16240,18 +17193,22 @@
 
 
                                
-                              /**
+                              */
+/**
                                * validate the array for InputMappings
-                               */
+                               *//*
+
                               protected void validateInputMappings(EventMappingPropertyDto[] param){
                              
                               }
 
 
-                             /**
+                             */
+/**
                               * Auto generated setter method
                               * @param param InputMappings
-                              */
+                              *//*
+
                               public void setInputMappings(EventMappingPropertyDto[] param){
                               
                                    validateInputMappings(param);
@@ -16263,10 +17220,12 @@
 
                                
                              
-                             /**
+                             */
+/**
                              * Auto generated add method for the array for convenience
                              * @param param EventMappingPropertyDto
-                             */
+                             *//*
+
                              public void addInputMappings(EventMappingPropertyDto param){
                                    if (localInputMappings == null){
                                    localInputMappings = new EventMappingPropertyDto[]{};
@@ -16287,18 +17246,22 @@
                              }
                              
 
-                        /**
+                        */
+/**
                         * field for InputPropertyConfiguration
                         * This was an Array!
-                        */
+                        *//*
+
 
                         
                                     protected BasicInputAdapterPropertyDto[] localInputPropertyConfiguration ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localInputPropertyConfigurationTracker = false ;
 
                            public boolean isInputPropertyConfigurationSpecified(){
@@ -16307,10 +17270,12 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return BasicInputAdapterPropertyDto[]
-                           */
+                           *//*
+
                            public  BasicInputAdapterPropertyDto[] getInputPropertyConfiguration(){
                                return localInputPropertyConfiguration;
                            }
@@ -16320,18 +17285,22 @@
 
 
                                
-                              /**
+                              */
+/**
                                * validate the array for InputPropertyConfiguration
-                               */
+                               *//*
+
                               protected void validateInputPropertyConfiguration(BasicInputAdapterPropertyDto[] param){
                              
                               }
 
 
-                             /**
+                             */
+/**
                               * Auto generated setter method
                               * @param param InputPropertyConfiguration
-                              */
+                              *//*
+
                               public void setInputPropertyConfiguration(BasicInputAdapterPropertyDto[] param){
                               
                                    validateInputPropertyConfiguration(param);
@@ -16343,10 +17312,12 @@
 
                                
                              
-                             /**
+                             */
+/**
                              * Auto generated add method for the array for convenience
                              * @param param BasicInputAdapterPropertyDto
-                             */
+                             *//*
+
                              public void addInputPropertyConfiguration(BasicInputAdapterPropertyDto param){
                                    if (localInputPropertyConfiguration == null){
                                    localInputPropertyConfiguration = new BasicInputAdapterPropertyDto[]{};
@@ -16367,17 +17338,21 @@
                              }
                              
 
-                        /**
-                        * field for MappingEnabled
                         */
+/**
+                        * field for MappingEnabled
+                        *//*
+
 
                         
                                     protected boolean localMappingEnabled ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localMappingEnabledTracker = false ;
 
                            public boolean isMappingEnabledSpecified(){
@@ -16386,20 +17361,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return boolean
-                           */
+                           *//*
+
                            public  boolean getMappingEnabled(){
                                return localMappingEnabled;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param MappingEnabled
-                               */
+                               *//*
+
                                public void setMappingEnabled(boolean param){
                             
                                        // setting primitive attribute tracker to true
@@ -16414,12 +17393,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -16646,9 +17627,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -16667,9 +17650,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -16679,9 +17664,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -16693,9 +17680,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -16718,9 +17707,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -16783,9 +17774,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -16801,10 +17794,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -16928,21 +17923,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static DeployXmlEventReceiverConfiguration parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             DeployXmlEventReceiverConfiguration object =
                 new DeployXmlEventReceiverConfiguration();
@@ -17344,17 +18343,21 @@
 
             
 
-                        /**
-                        * field for AdopterType
                         */
+/**
+                        * field for AdopterType
+                        *//*
+
 
                         
                                     protected java.lang.String localAdopterType ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localAdopterTypeTracker = false ;
 
                            public boolean isAdopterTypeSpecified(){
@@ -17363,20 +18366,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getAdopterType(){
                                return localAdopterType;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param AdopterType
-                               */
+                               *//*
+
                                public void setAdopterType(java.lang.String param){
                             localAdopterTypeTracker = true;
                                    
@@ -17388,12 +18395,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -17475,9 +18484,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -17496,9 +18507,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -17508,9 +18521,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -17522,9 +18537,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -17547,9 +18564,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -17612,9 +18631,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -17630,10 +18651,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -17658,21 +18681,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static GetInputAdapterConfigurationSchema parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             GetInputAdapterConfigurationSchema object =
                 new GetInputAdapterConfigurationSchema();
@@ -17786,17 +18813,21 @@
 
             
 
-                        /**
-                        * field for _return
                         */
+/**
+                        * field for _return
+                        *//*
+
 
                         
                                     protected boolean local_return ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean local_returnTracker = false ;
 
                            public boolean is_returnSpecified(){
@@ -17805,20 +18836,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return boolean
-                           */
+                           *//*
+
                            public  boolean get_return(){
                                return local_return;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param _return
-                               */
+                               *//*
+
                                public void set_return(boolean param){
                             
                                        // setting primitive attribute tracker to true
@@ -17833,12 +18868,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -17915,9 +18952,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -17936,9 +18975,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -17948,9 +18989,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -17962,9 +19005,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -17987,9 +19032,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -18052,9 +19099,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -18070,10 +19119,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -18098,21 +19149,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static UndeployActiveEventReceiverConfigurationResponse parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             UndeployActiveEventReceiverConfigurationResponse object =
                 new UndeployActiveEventReceiverConfigurationResponse();
@@ -18222,17 +19277,21 @@
 
             
 
-                        /**
-                        * field for FileName
                         */
+/**
+                        * field for FileName
+                        *//*
+
 
                         
                                     protected java.lang.String localFileName ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localFileNameTracker = false ;
 
                            public boolean isFileNameSpecified(){
@@ -18241,20 +19300,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getFileName(){
                                return localFileName;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param FileName
-                               */
+                               *//*
+
                                public void setFileName(java.lang.String param){
                             localFileNameTracker = true;
                                    
@@ -18266,12 +19329,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -18353,9 +19418,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -18374,9 +19441,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -18386,9 +19455,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -18400,9 +19471,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -18425,9 +19498,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -18490,9 +19565,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -18508,10 +19585,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -18536,21 +19615,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static GetInactiveEventReceiverConfigurationContent parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             GetInactiveEventReceiverConfigurationContent object =
                 new GetInactiveEventReceiverConfigurationContent();
@@ -18656,24 +19739,30 @@
     
         public static class EventReceiverConfigurationFileDto
         implements org.apache.axis2.databinding.ADBBean{
-        /* This type was generated from the piece of schema that had
+        */
+/* This type was generated from the piece of schema that had
                 name = EventReceiverConfigurationFileDto
                 Namespace URI = http://admin.receiver.event.carbon.wso2.org/xsd
                 Namespace Prefix = ns1
-                */
+                *//*
+
             
 
-                        /**
-                        * field for DeploymentStatusMsg
                         */
+/**
+                        * field for DeploymentStatusMsg
+                        *//*
+
 
                         
                                     protected java.lang.String localDeploymentStatusMsg ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localDeploymentStatusMsgTracker = false ;
 
                            public boolean isDeploymentStatusMsgSpecified(){
@@ -18682,20 +19771,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getDeploymentStatusMsg(){
                                return localDeploymentStatusMsg;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param DeploymentStatusMsg
-                               */
+                               *//*
+
                                public void setDeploymentStatusMsg(java.lang.String param){
                             localDeploymentStatusMsgTracker = true;
                                    
@@ -18705,17 +19798,21 @@
                                }
                             
 
-                        /**
-                        * field for EventReceiverName
                         */
+/**
+                        * field for EventReceiverName
+                        *//*
+
 
                         
                                     protected java.lang.String localEventReceiverName ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localEventReceiverNameTracker = false ;
 
                            public boolean isEventReceiverNameSpecified(){
@@ -18724,20 +19821,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getEventReceiverName(){
                                return localEventReceiverName;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param EventReceiverName
-                               */
+                               *//*
+
                                public void setEventReceiverName(java.lang.String param){
                             localEventReceiverNameTracker = true;
                                    
@@ -18747,17 +19848,21 @@
                                }
                             
 
-                        /**
-                        * field for FileName
                         */
+/**
+                        * field for FileName
+                        *//*
+
 
                         
                                     protected java.lang.String localFileName ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localFileNameTracker = false ;
 
                            public boolean isFileNameSpecified(){
@@ -18766,20 +19871,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getFileName(){
                                return localFileName;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param FileName
-                               */
+                               *//*
+
                                public void setFileName(java.lang.String param){
                             localFileNameTracker = true;
                                    
@@ -18791,12 +19900,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -18914,9 +20025,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -18935,9 +20048,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -18947,9 +20062,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -18961,9 +20078,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -18986,9 +20105,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -19051,9 +20172,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -19069,10 +20192,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -19109,21 +20234,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static EventReceiverConfigurationFileDto parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             EventReceiverConfigurationFileDto object =
                 new EventReceiverConfigurationFileDto();
@@ -19293,17 +20422,21 @@
 
             
 
-                        /**
-                        * field for _return
                         */
+/**
+                        * field for _return
+                        *//*
+
 
                         
                                     protected boolean local_return ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean local_returnTracker = false ;
 
                            public boolean is_returnSpecified(){
@@ -19312,20 +20445,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return boolean
-                           */
+                           *//*
+
                            public  boolean get_return(){
                                return local_return;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param _return
-                               */
+                               *//*
+
                                public void set_return(boolean param){
                             
                                        // setting primitive attribute tracker to true
@@ -19340,12 +20477,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -19422,9 +20561,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -19443,9 +20584,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -19455,9 +20598,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -19469,9 +20614,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -19494,9 +20641,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -19559,9 +20708,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -19577,10 +20728,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -19605,21 +20758,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static DeployEventReceiverConfigurationResponse parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             DeployEventReceiverConfigurationResponse object =
                 new DeployEventReceiverConfigurationResponse();
@@ -19729,17 +20886,21 @@
 
             
 
-                        /**
-                        * field for EventReceiverName
                         */
+/**
+                        * field for EventReceiverName
+                        *//*
+
 
                         
                                     protected java.lang.String localEventReceiverName ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localEventReceiverNameTracker = false ;
 
                            public boolean isEventReceiverNameSpecified(){
@@ -19748,20 +20909,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getEventReceiverName(){
                                return localEventReceiverName;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param EventReceiverName
-                               */
+                               *//*
+
                                public void setEventReceiverName(java.lang.String param){
                             localEventReceiverNameTracker = true;
                                    
@@ -19771,17 +20936,21 @@
                                }
                             
 
-                        /**
-                        * field for Flag
                         */
+/**
+                        * field for Flag
+                        *//*
+
 
                         
                                     protected boolean localFlag ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localFlagTracker = false ;
 
                            public boolean isFlagSpecified(){
@@ -19790,20 +20959,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return boolean
-                           */
+                           *//*
+
                            public  boolean getFlag(){
                                return localFlag;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param Flag
-                               */
+                               *//*
+
                                public void setFlag(boolean param){
                             
                                        // setting primitive attribute tracker to true
@@ -19818,12 +20991,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -19918,9 +21093,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -19939,9 +21116,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -19951,9 +21130,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -19965,9 +21146,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -19990,9 +21173,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -20055,9 +21240,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -20073,10 +21260,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -20107,21 +21296,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static SetStatisticsEnabled parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             SetStatisticsEnabled object =
                 new SetStatisticsEnabled();
@@ -20259,17 +21452,21 @@
 
             
 
-                        /**
-                        * field for _return
                         */
+/**
+                        * field for _return
+                        *//*
+
 
                         
                                     protected boolean local_return ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean local_returnTracker = false ;
 
                            public boolean is_returnSpecified(){
@@ -20278,20 +21475,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return boolean
-                           */
+                           *//*
+
                            public  boolean get_return(){
                                return local_return;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param _return
-                               */
+                               *//*
+
                                public void set_return(boolean param){
                             
                                        // setting primitive attribute tracker to true
@@ -20306,12 +21507,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -20388,9 +21591,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -20409,9 +21614,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -20421,9 +21628,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -20435,9 +21644,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -20460,9 +21671,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -20525,9 +21738,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -20543,10 +21758,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -20571,21 +21788,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static DeployMapEventReceiverConfigurationResponse parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             DeployMapEventReceiverConfigurationResponse object =
                 new DeployMapEventReceiverConfigurationResponse();
@@ -20695,17 +21916,21 @@
 
             
 
-                        /**
-                        * field for FileName
                         */
+/**
+                        * field for FileName
+                        *//*
+
 
                         
                                     protected java.lang.String localFileName ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localFileNameTracker = false ;
 
                            public boolean isFileNameSpecified(){
@@ -20714,20 +21939,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getFileName(){
                                return localFileName;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param FileName
-                               */
+                               *//*
+
                                public void setFileName(java.lang.String param){
                             localFileNameTracker = true;
                                    
@@ -20739,12 +21968,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -20826,9 +22057,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -20847,9 +22080,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -20859,9 +22094,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -20873,9 +22110,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -20898,9 +22137,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -20963,9 +22204,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -20981,10 +22224,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -21009,21 +22254,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static UndeployInactiveEventReceiverConfiguration parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             UndeployInactiveEventReceiverConfiguration object =
                 new UndeployInactiveEventReceiverConfiguration();
@@ -21129,25 +22378,31 @@
     
         public static class EventReceiverConfigurationDto
         implements org.apache.axis2.databinding.ADBBean{
-        /* This type was generated from the piece of schema that had
+        */
+/* This type was generated from the piece of schema that had
                 name = EventReceiverConfigurationDto
                 Namespace URI = http://admin.receiver.event.carbon.wso2.org/xsd
                 Namespace Prefix = ns1
-                */
+                *//*
+
             
 
-                        /**
+                        */
+/**
                         * field for CorrelationMappingPropertyDtos
                         * This was an Array!
-                        */
+                        *//*
+
 
                         
                                     protected EventMappingPropertyDto[] localCorrelationMappingPropertyDtos ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localCorrelationMappingPropertyDtosTracker = false ;
 
                            public boolean isCorrelationMappingPropertyDtosSpecified(){
@@ -21156,10 +22411,12 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return EventMappingPropertyDto[]
-                           */
+                           *//*
+
                            public  EventMappingPropertyDto[] getCorrelationMappingPropertyDtos(){
                                return localCorrelationMappingPropertyDtos;
                            }
@@ -21169,18 +22426,22 @@
 
 
                                
-                              /**
+                              */
+/**
                                * validate the array for CorrelationMappingPropertyDtos
-                               */
+                               *//*
+
                               protected void validateCorrelationMappingPropertyDtos(EventMappingPropertyDto[] param){
                              
                               }
 
 
-                             /**
+                             */
+/**
                               * Auto generated setter method
                               * @param param CorrelationMappingPropertyDtos
-                              */
+                              *//*
+
                               public void setCorrelationMappingPropertyDtos(EventMappingPropertyDto[] param){
                               
                                    validateCorrelationMappingPropertyDtos(param);
@@ -21192,10 +22453,12 @@
 
                                
                              
-                             /**
+                             */
+/**
                              * Auto generated add method for the array for convenience
                              * @param param EventMappingPropertyDto
-                             */
+                             *//*
+
                              public void addCorrelationMappingPropertyDtos(EventMappingPropertyDto param){
                                    if (localCorrelationMappingPropertyDtos == null){
                                    localCorrelationMappingPropertyDtos = new EventMappingPropertyDto[]{};
@@ -21216,17 +22479,21 @@
                              }
                              
 
-                        /**
-                        * field for CustomMappingEnabled
                         */
+/**
+                        * field for CustomMappingEnabled
+                        *//*
+
 
                         
                                     protected boolean localCustomMappingEnabled ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localCustomMappingEnabledTracker = false ;
 
                            public boolean isCustomMappingEnabledSpecified(){
@@ -21235,20 +22502,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return boolean
-                           */
+                           *//*
+
                            public  boolean getCustomMappingEnabled(){
                                return localCustomMappingEnabled;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param CustomMappingEnabled
-                               */
+                               *//*
+
                                public void setCustomMappingEnabled(boolean param){
                             
                                        // setting primitive attribute tracker to true
@@ -21261,17 +22532,21 @@
                                }
                             
 
-                        /**
-                        * field for EventReceiverName
                         */
+/**
+                        * field for EventReceiverName
+                        *//*
+
 
                         
                                     protected java.lang.String localEventReceiverName ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localEventReceiverNameTracker = false ;
 
                            public boolean isEventReceiverNameSpecified(){
@@ -21280,20 +22555,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getEventReceiverName(){
                                return localEventReceiverName;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param EventReceiverName
-                               */
+                               *//*
+
                                public void setEventReceiverName(java.lang.String param){
                             localEventReceiverNameTracker = true;
                                    
@@ -21303,17 +22582,21 @@
                                }
                             
 
-                        /**
-                        * field for FromAdapterConfigurationDto
                         */
+/**
+                        * field for FromAdapterConfigurationDto
+                        *//*
+
 
                         
                                     protected InputAdapterConfigurationDto localFromAdapterConfigurationDto ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localFromAdapterConfigurationDtoTracker = false ;
 
                            public boolean isFromAdapterConfigurationDtoSpecified(){
@@ -21322,20 +22605,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return InputAdapterConfigurationDto
-                           */
+                           *//*
+
                            public  InputAdapterConfigurationDto getFromAdapterConfigurationDto(){
                                return localFromAdapterConfigurationDto;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param FromAdapterConfigurationDto
-                               */
+                               *//*
+
                                public void setFromAdapterConfigurationDto(InputAdapterConfigurationDto param){
                             localFromAdapterConfigurationDtoTracker = true;
                                    
@@ -21345,18 +22632,22 @@
                                }
                             
 
-                        /**
+                        */
+/**
                         * field for MappingPropertyDtos
                         * This was an Array!
-                        */
+                        *//*
+
 
                         
                                     protected EventMappingPropertyDto[] localMappingPropertyDtos ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localMappingPropertyDtosTracker = false ;
 
                            public boolean isMappingPropertyDtosSpecified(){
@@ -21365,10 +22656,12 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return EventMappingPropertyDto[]
-                           */
+                           *//*
+
                            public  EventMappingPropertyDto[] getMappingPropertyDtos(){
                                return localMappingPropertyDtos;
                            }
@@ -21378,18 +22671,22 @@
 
 
                                
-                              /**
+                              */
+/**
                                * validate the array for MappingPropertyDtos
-                               */
+                               *//*
+
                               protected void validateMappingPropertyDtos(EventMappingPropertyDto[] param){
                              
                               }
 
 
-                             /**
+                             */
+/**
                               * Auto generated setter method
                               * @param param MappingPropertyDtos
-                              */
+                              *//*
+
                               public void setMappingPropertyDtos(EventMappingPropertyDto[] param){
                               
                                    validateMappingPropertyDtos(param);
@@ -21401,10 +22698,12 @@
 
                                
                              
-                             /**
+                             */
+/**
                              * Auto generated add method for the array for convenience
                              * @param param EventMappingPropertyDto
-                             */
+                             *//*
+
                              public void addMappingPropertyDtos(EventMappingPropertyDto param){
                                    if (localMappingPropertyDtos == null){
                                    localMappingPropertyDtos = new EventMappingPropertyDto[]{};
@@ -21425,17 +22724,21 @@
                              }
                              
 
-                        /**
-                        * field for MessageFormat
                         */
+/**
+                        * field for MessageFormat
+                        *//*
+
 
                         
                                     protected java.lang.String localMessageFormat ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localMessageFormatTracker = false ;
 
                            public boolean isMessageFormatSpecified(){
@@ -21444,20 +22747,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getMessageFormat(){
                                return localMessageFormat;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param MessageFormat
-                               */
+                               *//*
+
                                public void setMessageFormat(java.lang.String param){
                             localMessageFormatTracker = true;
                                    
@@ -21467,18 +22774,22 @@
                                }
                             
 
-                        /**
+                        */
+/**
                         * field for MetaMappingPropertyDtos
                         * This was an Array!
-                        */
+                        *//*
+
 
                         
                                     protected EventMappingPropertyDto[] localMetaMappingPropertyDtos ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localMetaMappingPropertyDtosTracker = false ;
 
                            public boolean isMetaMappingPropertyDtosSpecified(){
@@ -21487,10 +22798,12 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return EventMappingPropertyDto[]
-                           */
+                           *//*
+
                            public  EventMappingPropertyDto[] getMetaMappingPropertyDtos(){
                                return localMetaMappingPropertyDtos;
                            }
@@ -21500,18 +22813,22 @@
 
 
                                
-                              /**
+                              */
+/**
                                * validate the array for MetaMappingPropertyDtos
-                               */
+                               *//*
+
                               protected void validateMetaMappingPropertyDtos(EventMappingPropertyDto[] param){
                              
                               }
 
 
-                             /**
+                             */
+/**
                               * Auto generated setter method
                               * @param param MetaMappingPropertyDtos
-                              */
+                              *//*
+
                               public void setMetaMappingPropertyDtos(EventMappingPropertyDto[] param){
                               
                                    validateMetaMappingPropertyDtos(param);
@@ -21523,10 +22840,12 @@
 
                                
                              
-                             /**
+                             */
+/**
                              * Auto generated add method for the array for convenience
                              * @param param EventMappingPropertyDto
-                             */
+                             *//*
+
                              public void addMetaMappingPropertyDtos(EventMappingPropertyDto param){
                                    if (localMetaMappingPropertyDtos == null){
                                    localMetaMappingPropertyDtos = new EventMappingPropertyDto[]{};
@@ -21547,17 +22866,21 @@
                              }
                              
 
-                        /**
-                        * field for ParentSelectorXpath
                         */
+/**
+                        * field for ParentSelectorXpath
+                        *//*
+
 
                         
                                     protected java.lang.String localParentSelectorXpath ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localParentSelectorXpathTracker = false ;
 
                            public boolean isParentSelectorXpathSpecified(){
@@ -21566,20 +22889,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getParentSelectorXpath(){
                                return localParentSelectorXpath;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param ParentSelectorXpath
-                               */
+                               *//*
+
                                public void setParentSelectorXpath(java.lang.String param){
                             localParentSelectorXpathTracker = true;
                                    
@@ -21589,17 +22916,21 @@
                                }
                             
 
-                        /**
-                        * field for ToStreamNameWithVersion
                         */
+/**
+                        * field for ToStreamNameWithVersion
+                        *//*
+
 
                         
                                     protected java.lang.String localToStreamNameWithVersion ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localToStreamNameWithVersionTracker = false ;
 
                            public boolean isToStreamNameWithVersionSpecified(){
@@ -21608,20 +22939,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getToStreamNameWithVersion(){
                                return localToStreamNameWithVersion;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param ToStreamNameWithVersion
-                               */
+                               *//*
+
                                public void setToStreamNameWithVersion(java.lang.String param){
                             localToStreamNameWithVersionTracker = true;
                                    
@@ -21631,18 +22966,22 @@
                                }
                             
 
-                        /**
+                        */
+/**
                         * field for XpathDefinitionMappingPropertyDtos
                         * This was an Array!
-                        */
+                        *//*
+
 
                         
                                     protected EventMappingPropertyDto[] localXpathDefinitionMappingPropertyDtos ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localXpathDefinitionMappingPropertyDtosTracker = false ;
 
                            public boolean isXpathDefinitionMappingPropertyDtosSpecified(){
@@ -21651,10 +22990,12 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return EventMappingPropertyDto[]
-                           */
+                           *//*
+
                            public  EventMappingPropertyDto[] getXpathDefinitionMappingPropertyDtos(){
                                return localXpathDefinitionMappingPropertyDtos;
                            }
@@ -21664,18 +23005,22 @@
 
 
                                
-                              /**
+                              */
+/**
                                * validate the array for XpathDefinitionMappingPropertyDtos
-                               */
+                               *//*
+
                               protected void validateXpathDefinitionMappingPropertyDtos(EventMappingPropertyDto[] param){
                              
                               }
 
 
-                             /**
+                             */
+/**
                               * Auto generated setter method
                               * @param param XpathDefinitionMappingPropertyDtos
-                              */
+                              *//*
+
                               public void setXpathDefinitionMappingPropertyDtos(EventMappingPropertyDto[] param){
                               
                                    validateXpathDefinitionMappingPropertyDtos(param);
@@ -21687,10 +23032,12 @@
 
                                
                              
-                             /**
+                             */
+/**
                              * Auto generated add method for the array for convenience
                              * @param param EventMappingPropertyDto
-                             */
+                             *//*
+
                              public void addXpathDefinitionMappingPropertyDtos(EventMappingPropertyDto param){
                                    if (localXpathDefinitionMappingPropertyDtos == null){
                                    localXpathDefinitionMappingPropertyDtos = new EventMappingPropertyDto[]{};
@@ -21713,12 +23060,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -21983,9 +23332,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -22004,9 +23355,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -22016,9 +23369,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -22030,9 +23385,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -22055,9 +23412,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -22120,9 +23479,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -22138,10 +23499,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -22297,21 +23660,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static EventReceiverConfigurationDto parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             EventReceiverConfigurationDto object =
                 new EventReceiverConfigurationDto();
@@ -22797,17 +24164,21 @@
 
             
 
-                        /**
-                        * field for EventReceiverName
                         */
+/**
+                        * field for EventReceiverName
+                        *//*
+
 
                         
                                     protected java.lang.String localEventReceiverName ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localEventReceiverNameTracker = false ;
 
                            public boolean isEventReceiverNameSpecified(){
@@ -22816,20 +24187,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getEventReceiverName(){
                                return localEventReceiverName;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param EventReceiverName
-                               */
+                               *//*
+
                                public void setEventReceiverName(java.lang.String param){
                             localEventReceiverNameTracker = true;
                                    
@@ -22839,17 +24214,21 @@
                                }
                             
 
-                        /**
-                        * field for StreamNameWithVersion
                         */
+/**
+                        * field for StreamNameWithVersion
+                        *//*
+
 
                         
                                     protected java.lang.String localStreamNameWithVersion ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localStreamNameWithVersionTracker = false ;
 
                            public boolean isStreamNameWithVersionSpecified(){
@@ -22858,20 +24237,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getStreamNameWithVersion(){
                                return localStreamNameWithVersion;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param StreamNameWithVersion
-                               */
+                               *//*
+
                                public void setStreamNameWithVersion(java.lang.String param){
                             localStreamNameWithVersionTracker = true;
                                    
@@ -22881,17 +24264,21 @@
                                }
                             
 
-                        /**
-                        * field for EventAdapterType
                         */
+/**
+                        * field for EventAdapterType
+                        *//*
+
 
                         
                                     protected java.lang.String localEventAdapterType ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localEventAdapterTypeTracker = false ;
 
                            public boolean isEventAdapterTypeSpecified(){
@@ -22900,20 +24287,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getEventAdapterType(){
                                return localEventAdapterType;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param EventAdapterType
-                               */
+                               *//*
+
                                public void setEventAdapterType(java.lang.String param){
                             localEventAdapterTypeTracker = true;
                                    
@@ -22923,18 +24314,22 @@
                                }
                             
 
-                        /**
+                        */
+/**
                         * field for MetaData
                         * This was an Array!
-                        */
+                        *//*
+
 
                         
                                     protected EventMappingPropertyDto[] localMetaData ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localMetaDataTracker = false ;
 
                            public boolean isMetaDataSpecified(){
@@ -22943,10 +24338,12 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return EventMappingPropertyDto[]
-                           */
+                           *//*
+
                            public  EventMappingPropertyDto[] getMetaData(){
                                return localMetaData;
                            }
@@ -22956,18 +24353,22 @@
 
 
                                
-                              /**
+                              */
+/**
                                * validate the array for MetaData
-                               */
+                               *//*
+
                               protected void validateMetaData(EventMappingPropertyDto[] param){
                              
                               }
 
 
-                             /**
+                             */
+/**
                               * Auto generated setter method
                               * @param param MetaData
-                              */
+                              *//*
+
                               public void setMetaData(EventMappingPropertyDto[] param){
                               
                                    validateMetaData(param);
@@ -22979,10 +24380,12 @@
 
                                
                              
-                             /**
+                             */
+/**
                              * Auto generated add method for the array for convenience
                              * @param param EventMappingPropertyDto
-                             */
+                             *//*
+
                              public void addMetaData(EventMappingPropertyDto param){
                                    if (localMetaData == null){
                                    localMetaData = new EventMappingPropertyDto[]{};
@@ -23003,18 +24406,22 @@
                              }
                              
 
-                        /**
+                        */
+/**
                         * field for CorrelationData
                         * This was an Array!
-                        */
+                        *//*
+
 
                         
                                     protected EventMappingPropertyDto[] localCorrelationData ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localCorrelationDataTracker = false ;
 
                            public boolean isCorrelationDataSpecified(){
@@ -23023,10 +24430,12 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return EventMappingPropertyDto[]
-                           */
+                           *//*
+
                            public  EventMappingPropertyDto[] getCorrelationData(){
                                return localCorrelationData;
                            }
@@ -23036,18 +24445,22 @@
 
 
                                
-                              /**
+                              */
+/**
                                * validate the array for CorrelationData
-                               */
+                               *//*
+
                               protected void validateCorrelationData(EventMappingPropertyDto[] param){
                              
                               }
 
 
-                             /**
+                             */
+/**
                               * Auto generated setter method
                               * @param param CorrelationData
-                              */
+                              *//*
+
                               public void setCorrelationData(EventMappingPropertyDto[] param){
                               
                                    validateCorrelationData(param);
@@ -23059,10 +24472,12 @@
 
                                
                              
-                             /**
+                             */
+/**
                              * Auto generated add method for the array for convenience
                              * @param param EventMappingPropertyDto
-                             */
+                             *//*
+
                              public void addCorrelationData(EventMappingPropertyDto param){
                                    if (localCorrelationData == null){
                                    localCorrelationData = new EventMappingPropertyDto[]{};
@@ -23083,18 +24498,22 @@
                              }
                              
 
-                        /**
+                        */
+/**
                         * field for PayloadData
                         * This was an Array!
-                        */
+                        *//*
+
 
                         
                                     protected EventMappingPropertyDto[] localPayloadData ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localPayloadDataTracker = false ;
 
                            public boolean isPayloadDataSpecified(){
@@ -23103,10 +24522,12 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return EventMappingPropertyDto[]
-                           */
+                           *//*
+
                            public  EventMappingPropertyDto[] getPayloadData(){
                                return localPayloadData;
                            }
@@ -23116,18 +24537,22 @@
 
 
                                
-                              /**
+                              */
+/**
                                * validate the array for PayloadData
-                               */
+                               *//*
+
                               protected void validatePayloadData(EventMappingPropertyDto[] param){
                              
                               }
 
 
-                             /**
+                             */
+/**
                               * Auto generated setter method
                               * @param param PayloadData
-                              */
+                              *//*
+
                               public void setPayloadData(EventMappingPropertyDto[] param){
                               
                                    validatePayloadData(param);
@@ -23139,10 +24564,12 @@
 
                                
                              
-                             /**
+                             */
+/**
                              * Auto generated add method for the array for convenience
                              * @param param EventMappingPropertyDto
-                             */
+                             *//*
+
                              public void addPayloadData(EventMappingPropertyDto param){
                                    if (localPayloadData == null){
                                    localPayloadData = new EventMappingPropertyDto[]{};
@@ -23163,18 +24590,22 @@
                              }
                              
 
-                        /**
+                        */
+/**
                         * field for InputPropertyConfiguration
                         * This was an Array!
-                        */
+                        *//*
+
 
                         
                                     protected BasicInputAdapterPropertyDto[] localInputPropertyConfiguration ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localInputPropertyConfigurationTracker = false ;
 
                            public boolean isInputPropertyConfigurationSpecified(){
@@ -23183,10 +24614,12 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return BasicInputAdapterPropertyDto[]
-                           */
+                           *//*
+
                            public  BasicInputAdapterPropertyDto[] getInputPropertyConfiguration(){
                                return localInputPropertyConfiguration;
                            }
@@ -23196,18 +24629,22 @@
 
 
                                
-                              /**
+                              */
+/**
                                * validate the array for InputPropertyConfiguration
-                               */
+                               *//*
+
                               protected void validateInputPropertyConfiguration(BasicInputAdapterPropertyDto[] param){
                              
                               }
 
 
-                             /**
+                             */
+/**
                               * Auto generated setter method
                               * @param param InputPropertyConfiguration
-                              */
+                              *//*
+
                               public void setInputPropertyConfiguration(BasicInputAdapterPropertyDto[] param){
                               
                                    validateInputPropertyConfiguration(param);
@@ -23219,10 +24656,12 @@
 
                                
                              
-                             /**
+                             */
+/**
                              * Auto generated add method for the array for convenience
                              * @param param BasicInputAdapterPropertyDto
-                             */
+                             *//*
+
                              public void addInputPropertyConfiguration(BasicInputAdapterPropertyDto param){
                                    if (localInputPropertyConfiguration == null){
                                    localInputPropertyConfiguration = new BasicInputAdapterPropertyDto[]{};
@@ -23243,17 +24682,21 @@
                              }
                              
 
-                        /**
-                        * field for MappingEnabled
                         */
+/**
+                        * field for MappingEnabled
+                        *//*
+
 
                         
                                     protected boolean localMappingEnabled ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localMappingEnabledTracker = false ;
 
                            public boolean isMappingEnabledSpecified(){
@@ -23262,20 +24705,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return boolean
-                           */
+                           *//*
+
                            public  boolean getMappingEnabled(){
                                return localMappingEnabled;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param MappingEnabled
-                               */
+                               *//*
+
                                public void setMappingEnabled(boolean param){
                             
                                        // setting primitive attribute tracker to true
@@ -23288,17 +24735,21 @@
                                }
                             
 
-                        /**
-                        * field for FromStreamNameWithVersion
                         */
+/**
+                        * field for FromStreamNameWithVersion
+                        *//*
+
 
                         
                                     protected java.lang.String localFromStreamNameWithVersion ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localFromStreamNameWithVersionTracker = false ;
 
                            public boolean isFromStreamNameWithVersionSpecified(){
@@ -23307,20 +24758,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getFromStreamNameWithVersion(){
                                return localFromStreamNameWithVersion;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param FromStreamNameWithVersion
-                               */
+                               *//*
+
                                public void setFromStreamNameWithVersion(java.lang.String param){
                             localFromStreamNameWithVersionTracker = true;
                                    
@@ -23332,12 +24787,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -23590,9 +25047,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -23611,9 +25070,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -23623,9 +25084,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -23637,9 +25100,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -23662,9 +25127,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -23727,9 +25194,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -23745,10 +25214,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -23897,21 +25368,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static DeployWso2EventReceiverConfiguration parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             DeployWso2EventReceiverConfiguration object =
                 new DeployWso2EventReceiverConfiguration();
@@ -24365,24 +25840,30 @@
     
         public static class BasicInputAdapterPropertyDto
         implements org.apache.axis2.databinding.ADBBean{
-        /* This type was generated from the piece of schema that had
+        */
+/* This type was generated from the piece of schema that had
                 name = BasicInputAdapterPropertyDto
                 Namespace URI = http://admin.receiver.event.carbon.wso2.org/xsd
                 Namespace Prefix = ns1
-                */
+                *//*
+
             
 
-                        /**
-                        * field for Key
                         */
+/**
+                        * field for Key
+                        *//*
+
 
                         
                                     protected java.lang.String localKey ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localKeyTracker = false ;
 
                            public boolean isKeySpecified(){
@@ -24391,20 +25872,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getKey(){
                                return localKey;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param Key
-                               */
+                               *//*
+
                                public void setKey(java.lang.String param){
                             localKeyTracker = true;
                                    
@@ -24414,17 +25899,21 @@
                                }
                             
 
-                        /**
-                        * field for Value
                         */
+/**
+                        * field for Value
+                        *//*
+
 
                         
                                     protected java.lang.String localValue ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localValueTracker = false ;
 
                            public boolean isValueSpecified(){
@@ -24433,20 +25922,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getValue(){
                                return localValue;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param Value
-                               */
+                               *//*
+
                                public void setValue(java.lang.String param){
                             localValueTracker = true;
                                    
@@ -24458,12 +25951,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -24563,9 +26058,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -24584,9 +26081,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -24596,9 +26095,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -24610,9 +26111,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -24635,9 +26138,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -24700,9 +26205,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -24718,10 +26225,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -24752,21 +26261,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static BasicInputAdapterPropertyDto parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             BasicInputAdapterPropertyDto object =
                 new BasicInputAdapterPropertyDto();
@@ -24910,12 +26423,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -24979,9 +26494,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -25000,9 +26517,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -25012,9 +26531,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -25026,9 +26547,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -25051,9 +26574,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -25116,9 +26641,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -25134,10 +26661,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -25156,21 +26685,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static GetAllActiveEventReceiverConfigurations parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             GetAllActiveEventReceiverConfigurations object =
                 new GetAllActiveEventReceiverConfigurations();
@@ -25256,17 +26789,21 @@
 
             
 
-                        /**
-                        * field for EventReceiverConfigXml
                         */
+/**
+                        * field for EventReceiverConfigXml
+                        *//*
+
 
                         
                                     protected java.lang.String localEventReceiverConfigXml ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localEventReceiverConfigXmlTracker = false ;
 
                            public boolean isEventReceiverConfigXmlSpecified(){
@@ -25275,20 +26812,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getEventReceiverConfigXml(){
                                return localEventReceiverConfigXml;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param EventReceiverConfigXml
-                               */
+                               *//*
+
                                public void setEventReceiverConfigXml(java.lang.String param){
                             localEventReceiverConfigXmlTracker = true;
                                    
@@ -25300,12 +26841,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -25387,9 +26930,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -25408,9 +26953,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -25420,9 +26967,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -25434,9 +26983,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -25459,9 +27010,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -25524,9 +27077,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -25542,10 +27097,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -25570,21 +27127,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static DeployEventReceiverConfiguration parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             DeployEventReceiverConfiguration object =
                 new DeployEventReceiverConfiguration();
@@ -25698,18 +27259,22 @@
 
             
 
-                        /**
+                        */
+/**
                         * field for _return
                         * This was an Array!
-                        */
+                        *//*
+
 
                         
                                     protected EventReceiverConfigurationFileDto[] local_return ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean local_returnTracker = false ;
 
                            public boolean is_returnSpecified(){
@@ -25718,10 +27283,12 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return EventReceiverConfigurationFileDto[]
-                           */
+                           *//*
+
                            public  EventReceiverConfigurationFileDto[] get_return(){
                                return local_return;
                            }
@@ -25731,18 +27298,22 @@
 
 
                                
-                              /**
+                              */
+/**
                                * validate the array for _return
-                               */
+                               *//*
+
                               protected void validate_return(EventReceiverConfigurationFileDto[] param){
                              
                               }
 
 
-                             /**
+                             */
+/**
                               * Auto generated setter method
                               * @param param _return
-                              */
+                              *//*
+
                               public void set_return(EventReceiverConfigurationFileDto[] param){
                               
                                    validate_return(param);
@@ -25754,10 +27325,12 @@
 
                                
                              
-                             /**
+                             */
+/**
                              * Auto generated add method for the array for convenience
                              * @param param EventReceiverConfigurationFileDto
-                             */
+                             *//*
+
                              public void add_return(EventReceiverConfigurationFileDto param){
                                    if (local_return == null){
                                    local_return = new EventReceiverConfigurationFileDto[]{};
@@ -25780,12 +27353,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -25875,9 +27450,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -25896,9 +27473,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -25908,9 +27487,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -25922,9 +27503,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -25947,9 +27530,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -26012,9 +27597,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -26030,10 +27617,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -26077,21 +27666,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static GetAllInactiveEventReceiverConfigurationsResponse parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             GetAllInactiveEventReceiverConfigurationsResponse object =
                 new GetAllInactiveEventReceiverConfigurationsResponse();
@@ -26239,12 +27832,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -26308,9 +27903,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -26329,9 +27926,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -26341,9 +27940,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -26355,9 +27956,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -26380,9 +27983,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -26445,9 +28050,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -26463,10 +28070,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -26485,21 +28094,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static GetAllInputAdapterTypes parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             GetAllInputAdapterTypes object =
                 new GetAllInputAdapterTypes();
@@ -26585,17 +28198,21 @@
 
             
 
-                        /**
-                        * field for _return
                         */
+/**
+                        * field for _return
+                        *//*
+
 
                         
                                     protected boolean local_return ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean local_returnTracker = false ;
 
                            public boolean is_returnSpecified(){
@@ -26604,20 +28221,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return boolean
-                           */
+                           *//*
+
                            public  boolean get_return(){
                                return local_return;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param _return
-                               */
+                               *//*
+
                                public void set_return(boolean param){
                             
                                        // setting primitive attribute tracker to true
@@ -26632,12 +28253,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -26714,9 +28337,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -26735,9 +28360,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -26747,9 +28374,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -26761,9 +28390,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -26786,9 +28417,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -26851,9 +28484,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -26869,10 +28504,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -26897,21 +28534,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static SetTracingEnabledResponse parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             SetTracingEnabledResponse object =
                 new SetTracingEnabledResponse();
@@ -27021,17 +28662,21 @@
 
             
 
-                        /**
-                        * field for _return
                         */
+/**
+                        * field for _return
+                        *//*
+
 
                         
                                     protected boolean local_return ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean local_returnTracker = false ;
 
                            public boolean is_returnSpecified(){
@@ -27040,20 +28685,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return boolean
-                           */
+                           *//*
+
                            public  boolean get_return(){
                                return local_return;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param _return
-                               */
+                               *//*
+
                                public void set_return(boolean param){
                             
                                        // setting primitive attribute tracker to true
@@ -27068,12 +28717,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -27150,9 +28801,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -27171,9 +28824,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -27183,9 +28838,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -27197,9 +28854,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -27222,9 +28881,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -27287,9 +28948,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -27305,10 +28968,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -27333,21 +28998,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static IsReceiverStatisticsEnabledResponse parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             IsReceiverStatisticsEnabledResponse object =
                 new IsReceiverStatisticsEnabledResponse();
@@ -27457,17 +29126,21 @@
 
             
 
-                        /**
-                        * field for _return
                         */
+/**
+                        * field for _return
+                        *//*
+
 
                         
                                     protected boolean local_return ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean local_returnTracker = false ;
 
                            public boolean is_returnSpecified(){
@@ -27476,20 +29149,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return boolean
-                           */
+                           *//*
+
                            public  boolean get_return(){
                                return local_return;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param _return
-                               */
+                               *//*
+
                                public void set_return(boolean param){
                             
                                        // setting primitive attribute tracker to true
@@ -27504,12 +29181,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -27586,9 +29265,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -27607,9 +29288,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -27619,9 +29302,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -27633,9 +29318,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -27658,9 +29345,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -27723,9 +29412,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -27741,10 +29432,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -27769,21 +29462,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static DeployXmlEventReceiverConfigurationResponse parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             DeployXmlEventReceiverConfigurationResponse object =
                 new DeployXmlEventReceiverConfigurationResponse();
@@ -27893,17 +29590,21 @@
 
             
 
-                        /**
-                        * field for _return
                         */
+/**
+                        * field for _return
+                        *//*
+
 
                         
                                     protected boolean local_return ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean local_returnTracker = false ;
 
                            public boolean is_returnSpecified(){
@@ -27912,20 +29613,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return boolean
-                           */
+                           *//*
+
                            public  boolean get_return(){
                                return local_return;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param _return
-                               */
+                               *//*
+
                                public void set_return(boolean param){
                             
                                        // setting primitive attribute tracker to true
@@ -27940,12 +29645,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -28022,9 +29729,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -28043,9 +29752,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -28055,9 +29766,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -28069,9 +29782,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -28094,9 +29809,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -28159,9 +29876,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -28177,10 +29896,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -28205,21 +29926,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static UndeployInactiveEventReceiverConfigurationResponse parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             UndeployInactiveEventReceiverConfigurationResponse object =
                 new UndeployInactiveEventReceiverConfigurationResponse();
@@ -28329,17 +30054,21 @@
 
             
 
-                        /**
-                        * field for EventReceiverName
                         */
+/**
+                        * field for EventReceiverName
+                        *//*
+
 
                         
                                     protected java.lang.String localEventReceiverName ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localEventReceiverNameTracker = false ;
 
                            public boolean isEventReceiverNameSpecified(){
@@ -28348,20 +30077,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getEventReceiverName(){
                                return localEventReceiverName;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param EventReceiverName
-                               */
+                               *//*
+
                                public void setEventReceiverName(java.lang.String param){
                             localEventReceiverNameTracker = true;
                                    
@@ -28373,12 +30106,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -28460,9 +30195,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -28481,9 +30218,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -28493,9 +30232,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -28507,9 +30248,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -28532,9 +30275,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -28597,9 +30342,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -28615,10 +30362,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -28643,21 +30392,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static IsReceiverStatisticsEnabled parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             IsReceiverStatisticsEnabled object =
                 new IsReceiverStatisticsEnabled();
@@ -28771,17 +30524,21 @@
 
             
 
-                        /**
-                        * field for EventReceiverName
                         */
+/**
+                        * field for EventReceiverName
+                        *//*
+
 
                         
                                     protected java.lang.String localEventReceiverName ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localEventReceiverNameTracker = false ;
 
                            public boolean isEventReceiverNameSpecified(){
@@ -28790,20 +30547,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getEventReceiverName(){
                                return localEventReceiverName;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param EventReceiverName
-                               */
+                               *//*
+
                                public void setEventReceiverName(java.lang.String param){
                             localEventReceiverNameTracker = true;
                                    
@@ -28815,12 +30576,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -28902,9 +30665,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -28923,9 +30688,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -28935,9 +30702,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -28949,9 +30718,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -28974,9 +30745,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -29039,9 +30812,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -29057,10 +30832,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -29085,21 +30862,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static GetActiveEventReceiverConfiguration parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             GetActiveEventReceiverConfiguration object =
                 new GetActiveEventReceiverConfiguration();
@@ -29213,18 +30994,22 @@
 
             
 
-                        /**
+                        */
+/**
                         * field for _return
                         * This was an Array!
-                        */
+                        *//*
+
 
                         
                                     protected EventReceiverConfigurationInfoDto[] local_return ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean local_returnTracker = false ;
 
                            public boolean is_returnSpecified(){
@@ -29233,10 +31018,12 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return EventReceiverConfigurationInfoDto[]
-                           */
+                           *//*
+
                            public  EventReceiverConfigurationInfoDto[] get_return(){
                                return local_return;
                            }
@@ -29246,18 +31033,22 @@
 
 
                                
-                              /**
+                              */
+/**
                                * validate the array for _return
-                               */
+                               *//*
+
                               protected void validate_return(EventReceiverConfigurationInfoDto[] param){
                              
                               }
 
 
-                             /**
+                             */
+/**
                               * Auto generated setter method
                               * @param param _return
-                              */
+                              *//*
+
                               public void set_return(EventReceiverConfigurationInfoDto[] param){
                               
                                    validate_return(param);
@@ -29269,10 +31060,12 @@
 
                                
                              
-                             /**
+                             */
+/**
                              * Auto generated add method for the array for convenience
                              * @param param EventReceiverConfigurationInfoDto
-                             */
+                             *//*
+
                              public void add_return(EventReceiverConfigurationInfoDto param){
                                    if (local_return == null){
                                    local_return = new EventReceiverConfigurationInfoDto[]{};
@@ -29295,12 +31088,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -29390,9 +31185,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -29411,9 +31208,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -29423,9 +31222,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -29437,9 +31238,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -29462,9 +31265,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -29527,9 +31332,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -29545,10 +31352,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -29592,21 +31401,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static GetAllStreamSpecificActiveEventReceiverConfigurationsResponse parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             GetAllStreamSpecificActiveEventReceiverConfigurationsResponse object =
                 new GetAllStreamSpecificActiveEventReceiverConfigurationsResponse();
@@ -29744,24 +31557,30 @@
     
         public static class EventReceiverConfigurationInfoDto
         implements org.apache.axis2.databinding.ADBBean{
-        /* This type was generated from the piece of schema that had
+        */
+/* This type was generated from the piece of schema that had
                 name = EventReceiverConfigurationInfoDto
                 Namespace URI = http://admin.receiver.event.carbon.wso2.org/xsd
                 Namespace Prefix = ns1
-                */
+                *//*
+
             
 
-                        /**
-                        * field for Editable
                         */
+/**
+                        * field for Editable
+                        *//*
+
 
                         
                                     protected boolean localEditable ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localEditableTracker = false ;
 
                            public boolean isEditableSpecified(){
@@ -29770,20 +31589,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return boolean
-                           */
+                           *//*
+
                            public  boolean getEditable(){
                                return localEditable;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param Editable
-                               */
+                               *//*
+
                                public void setEditable(boolean param){
                             
                                        // setting primitive attribute tracker to true
@@ -29796,17 +31619,21 @@
                                }
                             
 
-                        /**
-                        * field for EnableStats
                         */
+/**
+                        * field for EnableStats
+                        *//*
+
 
                         
                                     protected boolean localEnableStats ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localEnableStatsTracker = false ;
 
                            public boolean isEnableStatsSpecified(){
@@ -29815,20 +31642,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return boolean
-                           */
+                           *//*
+
                            public  boolean getEnableStats(){
                                return localEnableStats;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param EnableStats
-                               */
+                               *//*
+
                                public void setEnableStats(boolean param){
                             
                                        // setting primitive attribute tracker to true
@@ -29841,17 +31672,21 @@
                                }
                             
 
-                        /**
-                        * field for EnableTracing
                         */
+/**
+                        * field for EnableTracing
+                        *//*
+
 
                         
                                     protected boolean localEnableTracing ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localEnableTracingTracker = false ;
 
                            public boolean isEnableTracingSpecified(){
@@ -29860,20 +31695,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return boolean
-                           */
+                           *//*
+
                            public  boolean getEnableTracing(){
                                return localEnableTracing;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param EnableTracing
-                               */
+                               *//*
+
                                public void setEnableTracing(boolean param){
                             
                                        // setting primitive attribute tracker to true
@@ -29886,17 +31725,21 @@
                                }
                             
 
-                        /**
-                        * field for EventReceiverName
                         */
+/**
+                        * field for EventReceiverName
+                        *//*
+
 
                         
                                     protected java.lang.String localEventReceiverName ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localEventReceiverNameTracker = false ;
 
                            public boolean isEventReceiverNameSpecified(){
@@ -29905,20 +31748,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getEventReceiverName(){
                                return localEventReceiverName;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param EventReceiverName
-                               */
+                               *//*
+
                                public void setEventReceiverName(java.lang.String param){
                             localEventReceiverNameTracker = true;
                                    
@@ -29928,17 +31775,21 @@
                                }
                             
 
-                        /**
-                        * field for InputAdapterType
                         */
+/**
+                        * field for InputAdapterType
+                        *//*
+
 
                         
                                     protected java.lang.String localInputAdapterType ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localInputAdapterTypeTracker = false ;
 
                            public boolean isInputAdapterTypeSpecified(){
@@ -29947,20 +31798,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getInputAdapterType(){
                                return localInputAdapterType;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param InputAdapterType
-                               */
+                               *//*
+
                                public void setInputAdapterType(java.lang.String param){
                             localInputAdapterTypeTracker = true;
                                    
@@ -29970,17 +31825,21 @@
                                }
                             
 
-                        /**
-                        * field for InputStreamId
                         */
+/**
+                        * field for InputStreamId
+                        *//*
+
 
                         
                                     protected java.lang.String localInputStreamId ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localInputStreamIdTracker = false ;
 
                            public boolean isInputStreamIdSpecified(){
@@ -29989,20 +31848,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getInputStreamId(){
                                return localInputStreamId;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param InputStreamId
-                               */
+                               *//*
+
                                public void setInputStreamId(java.lang.String param){
                             localInputStreamIdTracker = true;
                                    
@@ -30012,17 +31875,21 @@
                                }
                             
 
-                        /**
-                        * field for MessageFormat
                         */
+/**
+                        * field for MessageFormat
+                        *//*
+
 
                         
                                     protected java.lang.String localMessageFormat ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localMessageFormatTracker = false ;
 
                            public boolean isMessageFormatSpecified(){
@@ -30031,20 +31898,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getMessageFormat(){
                                return localMessageFormat;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param MessageFormat
-                               */
+                               *//*
+
                                public void setMessageFormat(java.lang.String param){
                             localMessageFormatTracker = true;
                                    
@@ -30056,12 +31927,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -30236,9 +32109,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -30257,9 +32132,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -30269,9 +32146,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -30283,9 +32162,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -30308,9 +32189,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -30373,9 +32256,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -30391,10 +32276,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -30455,21 +32342,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static EventReceiverConfigurationInfoDto parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             EventReceiverConfigurationInfoDto object =
                 new EventReceiverConfigurationInfoDto();
@@ -30739,17 +32630,21 @@
 
             
 
-                        /**
-                        * field for _return
                         */
+/**
+                        * field for _return
+                        *//*
+
 
                         
                                     protected boolean local_return ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean local_returnTracker = false ;
 
                            public boolean is_returnSpecified(){
@@ -30758,20 +32653,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return boolean
-                           */
+                           *//*
+
                            public  boolean get_return(){
                                return local_return;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param _return
-                               */
+                               *//*
+
                                public void set_return(boolean param){
                             
                                        // setting primitive attribute tracker to true
@@ -30786,12 +32685,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -30868,9 +32769,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -30889,9 +32792,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -30901,9 +32806,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -30915,9 +32822,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -30940,9 +32849,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -31005,9 +32916,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -31023,10 +32936,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -31051,21 +32966,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static EditActiveEventReceiverConfigurationResponse parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             EditActiveEventReceiverConfigurationResponse object =
                 new EditActiveEventReceiverConfigurationResponse();
@@ -31167,24 +33086,30 @@
     
         public static class InputAdapterConfigurationDto
         implements org.apache.axis2.databinding.ADBBean{
-        /* This type was generated from the piece of schema that had
+        */
+/* This type was generated from the piece of schema that had
                 name = InputAdapterConfigurationDto
                 Namespace URI = http://admin.receiver.event.carbon.wso2.org/xsd
                 Namespace Prefix = ns1
-                */
+                *//*
+
             
 
-                        /**
-                        * field for EventAdapterType
                         */
+/**
+                        * field for EventAdapterType
+                        *//*
+
 
                         
                                     protected java.lang.String localEventAdapterType ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localEventAdapterTypeTracker = false ;
 
                            public boolean isEventAdapterTypeSpecified(){
@@ -31193,20 +33118,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getEventAdapterType(){
                                return localEventAdapterType;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param EventAdapterType
-                               */
+                               *//*
+
                                public void setEventAdapterType(java.lang.String param){
                             localEventAdapterTypeTracker = true;
                                    
@@ -31216,18 +33145,22 @@
                                }
                             
 
-                        /**
+                        */
+/**
                         * field for InputEventAdapterProperties
                         * This was an Array!
-                        */
+                        *//*
+
 
                         
                                     protected DetailInputAdapterPropertyDto[] localInputEventAdapterProperties ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localInputEventAdapterPropertiesTracker = false ;
 
                            public boolean isInputEventAdapterPropertiesSpecified(){
@@ -31236,10 +33169,12 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return DetailInputAdapterPropertyDto[]
-                           */
+                           *//*
+
                            public  DetailInputAdapterPropertyDto[] getInputEventAdapterProperties(){
                                return localInputEventAdapterProperties;
                            }
@@ -31249,18 +33184,22 @@
 
 
                                
-                              /**
+                              */
+/**
                                * validate the array for InputEventAdapterProperties
-                               */
+                               *//*
+
                               protected void validateInputEventAdapterProperties(DetailInputAdapterPropertyDto[] param){
                              
                               }
 
 
-                             /**
+                             */
+/**
                               * Auto generated setter method
                               * @param param InputEventAdapterProperties
-                              */
+                              *//*
+
                               public void setInputEventAdapterProperties(DetailInputAdapterPropertyDto[] param){
                               
                                    validateInputEventAdapterProperties(param);
@@ -31272,10 +33211,12 @@
 
                                
                              
-                             /**
+                             */
+/**
                              * Auto generated add method for the array for convenience
                              * @param param DetailInputAdapterPropertyDto
-                             */
+                             *//*
+
                              public void addInputEventAdapterProperties(DetailInputAdapterPropertyDto param){
                                    if (localInputEventAdapterProperties == null){
                                    localInputEventAdapterProperties = new DetailInputAdapterPropertyDto[]{};
@@ -31296,18 +33237,22 @@
                              }
                              
 
-                        /**
+                        */
+/**
                         * field for SupportedMessageFormats
                         * This was an Array!
-                        */
+                        *//*
+
 
                         
                                     protected java.lang.String[] localSupportedMessageFormats ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localSupportedMessageFormatsTracker = false ;
 
                            public boolean isSupportedMessageFormatsSpecified(){
@@ -31316,10 +33261,12 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String[]
-                           */
+                           *//*
+
                            public  java.lang.String[] getSupportedMessageFormats(){
                                return localSupportedMessageFormats;
                            }
@@ -31329,18 +33276,22 @@
 
 
                                
-                              /**
+                              */
+/**
                                * validate the array for SupportedMessageFormats
-                               */
+                               *//*
+
                               protected void validateSupportedMessageFormats(java.lang.String[] param){
                              
                               }
 
 
-                             /**
+                             */
+/**
                               * Auto generated setter method
                               * @param param SupportedMessageFormats
-                              */
+                              *//*
+
                               public void setSupportedMessageFormats(java.lang.String[] param){
                               
                                    validateSupportedMessageFormats(param);
@@ -31352,10 +33303,12 @@
 
                                
                              
-                             /**
+                             */
+/**
                              * Auto generated add method for the array for convenience
                              * @param param java.lang.String
-                             */
+                             *//*
+
                              public void addSupportedMessageFormats(java.lang.String param){
                                    if (localSupportedMessageFormats == null){
                                    localSupportedMessageFormats = new java.lang.String[]{};
@@ -31376,17 +33329,21 @@
                              }
                              
 
-                        /**
-                        * field for UsageTips
                         */
+/**
+                        * field for UsageTips
+                        *//*
+
 
                         
                                     protected java.lang.String localUsageTips ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localUsageTipsTracker = false ;
 
                            public boolean isUsageTipsSpecified(){
@@ -31395,20 +33352,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getUsageTips(){
                                return localUsageTips;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param UsageTips
-                               */
+                               *//*
+
                                public void setUsageTips(java.lang.String param){
                             localUsageTipsTracker = true;
                                    
@@ -31420,12 +33381,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -31588,9 +33551,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -31609,9 +33574,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -31621,9 +33588,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -31635,9 +33604,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -31660,9 +33631,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -31725,9 +33698,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -31743,10 +33718,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -31829,21 +33806,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static InputAdapterConfigurationDto parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             InputAdapterConfigurationDto object =
                 new InputAdapterConfigurationDto();
@@ -32106,18 +34087,22 @@
 
             
 
-                        /**
+                        */
+/**
                         * field for _return
                         * This was an Array!
-                        */
+                        *//*
+
 
                         
                                     protected java.lang.String[] local_return ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean local_returnTracker = false ;
 
                            public boolean is_returnSpecified(){
@@ -32126,10 +34111,12 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String[]
-                           */
+                           *//*
+
                            public  java.lang.String[] get_return(){
                                return local_return;
                            }
@@ -32139,18 +34126,22 @@
 
 
                                
-                              /**
+                              */
+/**
                                * validate the array for _return
-                               */
+                               *//*
+
                               protected void validate_return(java.lang.String[] param){
                              
                               }
 
 
-                             /**
+                             */
+/**
                               * Auto generated setter method
                               * @param param _return
-                              */
+                              *//*
+
                               public void set_return(java.lang.String[] param){
                               
                                    validate_return(param);
@@ -32162,10 +34153,12 @@
 
                                
                              
-                             /**
+                             */
+/**
                              * Auto generated add method for the array for convenience
                              * @param param java.lang.String
-                             */
+                             *//*
+
                              public void add_return(java.lang.String param){
                                    if (local_return == null){
                                    local_return = new java.lang.String[]{};
@@ -32188,12 +34181,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -32294,9 +34289,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -32315,9 +34312,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -32327,9 +34326,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -32341,9 +34342,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -32366,9 +34369,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -32431,9 +34436,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -32449,10 +34456,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -32498,21 +34507,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static GetAllInputAdapterTypesResponse parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             GetAllInputAdapterTypesResponse object =
                 new GetAllInputAdapterTypesResponse();
@@ -32659,17 +34672,21 @@
 
             
 
-                        /**
-                        * field for _return
                         */
+/**
+                        * field for _return
+                        *//*
+
 
                         
                                     protected EventReceiverConfigurationDto local_return ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean local_returnTracker = false ;
 
                            public boolean is_returnSpecified(){
@@ -32678,20 +34695,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return EventReceiverConfigurationDto
-                           */
+                           *//*
+
                            public  EventReceiverConfigurationDto get_return(){
                                return local_return;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param _return
-                               */
+                               *//*
+
                                public void set_return(EventReceiverConfigurationDto param){
                             local_returnTracker = true;
                                    
@@ -32703,12 +34724,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -32784,9 +34807,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -32805,9 +34830,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -32817,9 +34844,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -32831,9 +34860,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -32856,9 +34887,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -32921,9 +34954,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -32939,10 +34974,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -32968,21 +35005,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static GetActiveEventReceiverConfigurationResponse parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             GetActiveEventReceiverConfigurationResponse object =
                 new GetActiveEventReceiverConfigurationResponse();
@@ -33092,17 +35133,21 @@
 
             
 
-                        /**
-                        * field for EventReceiverName
                         */
+/**
+                        * field for EventReceiverName
+                        *//*
+
 
                         
                                     protected java.lang.String localEventReceiverName ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localEventReceiverNameTracker = false ;
 
                            public boolean isEventReceiverNameSpecified(){
@@ -33111,20 +35156,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getEventReceiverName(){
                                return localEventReceiverName;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param EventReceiverName
-                               */
+                               *//*
+
                                public void setEventReceiverName(java.lang.String param){
                             localEventReceiverNameTracker = true;
                                    
@@ -33134,17 +35183,21 @@
                                }
                             
 
-                        /**
-                        * field for StreamNameWithVersion
                         */
+/**
+                        * field for StreamNameWithVersion
+                        *//*
+
 
                         
                                     protected java.lang.String localStreamNameWithVersion ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localStreamNameWithVersionTracker = false ;
 
                            public boolean isStreamNameWithVersionSpecified(){
@@ -33153,20 +35206,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getStreamNameWithVersion(){
                                return localStreamNameWithVersion;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param StreamNameWithVersion
-                               */
+                               *//*
+
                                public void setStreamNameWithVersion(java.lang.String param){
                             localStreamNameWithVersionTracker = true;
                                    
@@ -33176,17 +35233,21 @@
                                }
                             
 
-                        /**
-                        * field for EventAdapterType
                         */
+/**
+                        * field for EventAdapterType
+                        *//*
+
 
                         
                                     protected java.lang.String localEventAdapterType ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localEventAdapterTypeTracker = false ;
 
                            public boolean isEventAdapterTypeSpecified(){
@@ -33195,20 +35256,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getEventAdapterType(){
                                return localEventAdapterType;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param EventAdapterType
-                               */
+                               *//*
+
                                public void setEventAdapterType(java.lang.String param){
                             localEventAdapterTypeTracker = true;
                                    
@@ -33218,18 +35283,22 @@
                                }
                             
 
-                        /**
+                        */
+/**
                         * field for InputMappings
                         * This was an Array!
-                        */
+                        *//*
+
 
                         
                                     protected EventMappingPropertyDto[] localInputMappings ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localInputMappingsTracker = false ;
 
                            public boolean isInputMappingsSpecified(){
@@ -33238,10 +35307,12 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return EventMappingPropertyDto[]
-                           */
+                           *//*
+
                            public  EventMappingPropertyDto[] getInputMappings(){
                                return localInputMappings;
                            }
@@ -33251,18 +35322,22 @@
 
 
                                
-                              /**
+                              */
+/**
                                * validate the array for InputMappings
-                               */
+                               *//*
+
                               protected void validateInputMappings(EventMappingPropertyDto[] param){
                              
                               }
 
 
-                             /**
+                             */
+/**
                               * Auto generated setter method
                               * @param param InputMappings
-                              */
+                              *//*
+
                               public void setInputMappings(EventMappingPropertyDto[] param){
                               
                                    validateInputMappings(param);
@@ -33274,10 +35349,12 @@
 
                                
                              
-                             /**
+                             */
+/**
                              * Auto generated add method for the array for convenience
                              * @param param EventMappingPropertyDto
-                             */
+                             *//*
+
                              public void addInputMappings(EventMappingPropertyDto param){
                                    if (localInputMappings == null){
                                    localInputMappings = new EventMappingPropertyDto[]{};
@@ -33298,18 +35375,22 @@
                              }
                              
 
-                        /**
+                        */
+/**
                         * field for InputPropertyConfiguration
                         * This was an Array!
-                        */
+                        *//*
+
 
                         
                                     protected BasicInputAdapterPropertyDto[] localInputPropertyConfiguration ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localInputPropertyConfigurationTracker = false ;
 
                            public boolean isInputPropertyConfigurationSpecified(){
@@ -33318,10 +35399,12 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return BasicInputAdapterPropertyDto[]
-                           */
+                           *//*
+
                            public  BasicInputAdapterPropertyDto[] getInputPropertyConfiguration(){
                                return localInputPropertyConfiguration;
                            }
@@ -33331,18 +35414,22 @@
 
 
                                
-                              /**
+                              */
+/**
                                * validate the array for InputPropertyConfiguration
-                               */
+                               *//*
+
                               protected void validateInputPropertyConfiguration(BasicInputAdapterPropertyDto[] param){
                              
                               }
 
 
-                             /**
+                             */
+/**
                               * Auto generated setter method
                               * @param param InputPropertyConfiguration
-                              */
+                              *//*
+
                               public void setInputPropertyConfiguration(BasicInputAdapterPropertyDto[] param){
                               
                                    validateInputPropertyConfiguration(param);
@@ -33354,10 +35441,12 @@
 
                                
                              
-                             /**
+                             */
+/**
                              * Auto generated add method for the array for convenience
                              * @param param BasicInputAdapterPropertyDto
-                             */
+                             *//*
+
                              public void addInputPropertyConfiguration(BasicInputAdapterPropertyDto param){
                                    if (localInputPropertyConfiguration == null){
                                    localInputPropertyConfiguration = new BasicInputAdapterPropertyDto[]{};
@@ -33378,17 +35467,21 @@
                              }
                              
 
-                        /**
-                        * field for MappingEnabled
                         */
+/**
+                        * field for MappingEnabled
+                        *//*
+
 
                         
                                     protected boolean localMappingEnabled ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localMappingEnabledTracker = false ;
 
                            public boolean isMappingEnabledSpecified(){
@@ -33397,20 +35490,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return boolean
-                           */
+                           *//*
+
                            public  boolean getMappingEnabled(){
                                return localMappingEnabled;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param MappingEnabled
-                               */
+                               *//*
+
                                public void setMappingEnabled(boolean param){
                             
                                        // setting primitive attribute tracker to true
@@ -33425,12 +35522,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -33613,9 +35712,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -33634,9 +35735,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -33646,9 +35749,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -33660,9 +35765,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -33685,9 +35792,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -33750,9 +35859,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -33768,10 +35879,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -33864,21 +35977,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static DeployMapEventReceiverConfiguration parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             DeployMapEventReceiverConfiguration object =
                 new DeployMapEventReceiverConfiguration();
@@ -34192,17 +36309,21 @@
 
             
 
-                        /**
-                        * field for EventReceiverName
                         */
+/**
+                        * field for EventReceiverName
+                        *//*
+
 
                         
                                     protected java.lang.String localEventReceiverName ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localEventReceiverNameTracker = false ;
 
                            public boolean isEventReceiverNameSpecified(){
@@ -34211,20 +36332,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return java.lang.String
-                           */
+                           *//*
+
                            public  java.lang.String getEventReceiverName(){
                                return localEventReceiverName;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param EventReceiverName
-                               */
+                               *//*
+
                                public void setEventReceiverName(java.lang.String param){
                             localEventReceiverNameTracker = true;
                                    
@@ -34234,17 +36359,21 @@
                                }
                             
 
-                        /**
-                        * field for Flag
                         */
+/**
+                        * field for Flag
+                        *//*
+
 
                         
                                     protected boolean localFlag ;
                                 
-                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                           */
+/*  This tracker boolean wil be used to detect whether the user called the set method
                           *   for this attribute. It will be used to determine whether to include this field
                            *   in the serialized XML
-                           */
+                           *//*
+
                            protected boolean localFlagTracker = false ;
 
                            public boolean isFlagSpecified(){
@@ -34253,20 +36382,24 @@
 
                            
 
-                           /**
+                           */
+/**
                            * Auto generated getter method
                            * @return boolean
-                           */
+                           *//*
+
                            public  boolean getFlag(){
                                return localFlag;
                            }
 
                            
                         
-                            /**
+                            */
+/**
                                * Auto generated setter method
                                * @param param Flag
-                               */
+                               *//*
+
                                public void setFlag(boolean param){
                             
                                        // setting primitive attribute tracker to true
@@ -34281,12 +36414,14 @@
      
 
      
-        /**
+        */
+/**
         *
         * @param parentQName
         * @param factory
         * @return org.apache.axiom.om.OMElement
-        */
+        *//*
+
        public org.apache.axiom.om.OMElement getOMElement (
                final javax.xml.namespace.QName parentQName,
                final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
@@ -34381,9 +36516,11 @@
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
         }
 
-        /**
+        */
+/**
          * Utility method to write an element start tag.
-         */
+         *//*
+
         private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
                                        javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
@@ -34402,9 +36539,11 @@
             }
         }
         
-        /**
+        */
+/**
          * Util method to write an attribute with the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (xmlWriter.getPrefix(namespace) == null) {
@@ -34414,9 +36553,11 @@
             xmlWriter.writeAttribute(namespace,attName,attValue);
         }
 
-        /**
+        */
+/**
          * Util method to write an attribute without the ns prefix
-         */
+         *//*
+
         private void writeAttribute(java.lang.String namespace,java.lang.String attName,
                                     java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
             if (namespace.equals("")) {
@@ -34428,9 +36569,11 @@
         }
 
 
-           /**
+           */
+/**
              * Util method to write an attribute without the ns prefix
-             */
+             *//*
+
             private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
                                              javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
 
@@ -34453,9 +36596,11 @@
                     xmlWriter.writeAttribute(namespace, attName, attributeValue);
                 }
             }
-        /**
+        */
+/**
          *  method to handle Qnames
-         */
+         *//*
+
 
         private void writeQName(javax.xml.namespace.QName qname,
                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
@@ -34518,9 +36663,11 @@
         }
 
 
-        /**
+        */
+/**
          * Register a namespace prefix
-         */
+         *//*
+
         private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix = xmlWriter.getPrefix(namespace);
             if (prefix == null) {
@@ -34536,10 +36683,12 @@
 
 
   
-        /**
+        */
+/**
         * databinding method to get an XML representation of this object
         *
-        */
+        *//*
+
         public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
                     throws org.apache.axis2.databinding.ADBException{
 
@@ -34570,21 +36719,25 @@
 
   
 
-     /**
+     */
+/**
       *  Factory class that keeps the parse method
-      */
+      *//*
+
     public static class Factory{
 
         
         
 
-        /**
+        */
+/**
         * static method to create the object
         * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
         *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
         * Postcondition: If this object is an element, the reader is positioned at its end element
         *                If this object is a complex type, the reader is positioned at the end element of its outer element
-        */
+        *//*
+
         public static SetTracingEnabled parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
             SetTracingEnabled object =
                 new SetTracingEnabled();
@@ -35374,7 +37527,9 @@
                                         }
                                 
                              
-                             /* methods to provide back word compatibility */
+                             */
+/* methods to provide back word compatibility *//*
+
 
                              
                                     
@@ -35395,7 +37550,9 @@
                                         }
                                 
                              
-                             /* methods to provide back word compatibility */
+                             */
+/* methods to provide back word compatibility *//*
+
 
                              
                                     
@@ -35416,7 +37573,9 @@
                                         }
                                 
                              
-                             /* methods to provide back word compatibility */
+                             */
+/* methods to provide back word compatibility *//*
+
 
                              
                                     
@@ -35437,7 +37596,9 @@
                                         }
                                 
                              
-                             /* methods to provide back word compatibility */
+                             */
+/* methods to provide back word compatibility *//*
+
 
                              
                                     
@@ -35458,7 +37619,9 @@
                                         }
                                 
                              
-                             /* methods to provide back word compatibility */
+                             */
+/* methods to provide back word compatibility *//*
+
 
                              
                                     
@@ -35479,7 +37642,9 @@
                                         }
                                 
                              
-                             /* methods to provide back word compatibility */
+                             */
+/* methods to provide back word compatibility *//*
+
 
                              
                                     
@@ -35500,7 +37665,9 @@
                                         }
                                 
                              
-                             /* methods to provide back word compatibility */
+                             */
+/* methods to provide back word compatibility *//*
+
 
                              
                                     
@@ -35521,7 +37688,9 @@
                                         }
                                 
                              
-                             /* methods to provide back word compatibility */
+                             */
+/* methods to provide back word compatibility *//*
+
 
                              
                                     
@@ -35542,7 +37711,9 @@
                                         }
                                 
                              
-                             /* methods to provide back word compatibility */
+                             */
+/* methods to provide back word compatibility *//*
+
 
                              
                                     
@@ -35563,7 +37734,9 @@
                                         }
                                 
                              
-                             /* methods to provide back word compatibility */
+                             */
+/* methods to provide back word compatibility *//*
+
 
                              
                                     
@@ -35584,7 +37757,9 @@
                                         }
                                 
                              
-                             /* methods to provide back word compatibility */
+                             */
+/* methods to provide back word compatibility *//*
+
 
                              
                                     
@@ -35605,7 +37780,9 @@
                                         }
                                 
                              
-                             /* methods to provide back word compatibility */
+                             */
+/* methods to provide back word compatibility *//*
+
 
                              
                                     
@@ -35626,7 +37803,9 @@
                                         }
                                 
                              
-                             /* methods to provide back word compatibility */
+                             */
+/* methods to provide back word compatibility *//*
+
 
                              
                                     
@@ -35647,7 +37826,9 @@
                                         }
                                 
                              
-                             /* methods to provide back word compatibility */
+                             */
+/* methods to provide back word compatibility *//*
+
 
                              
                                     
@@ -35668,7 +37849,9 @@
                                         }
                                 
                              
-                             /* methods to provide back word compatibility */
+                             */
+/* methods to provide back word compatibility *//*
+
 
                              
                                     
@@ -35689,7 +37872,9 @@
                                         }
                                 
                              
-                             /* methods to provide back word compatibility */
+                             */
+/* methods to provide back word compatibility *//*
+
 
                              
                                     
@@ -35710,7 +37895,9 @@
                                         }
                                 
                              
-                             /* methods to provide back word compatibility */
+                             */
+/* methods to provide back word compatibility *//*
+
 
                              
                                     
@@ -35731,7 +37918,9 @@
                                         }
                                 
                              
-                             /* methods to provide back word compatibility */
+                             */
+/* methods to provide back word compatibility *//*
+
 
                              
                                     
@@ -35752,7 +37941,9 @@
                                         }
                                 
                              
-                             /* methods to provide back word compatibility */
+                             */
+/* methods to provide back word compatibility *//*
+
 
                              
                                     
@@ -35773,7 +37964,9 @@
                                         }
                                 
                              
-                             /* methods to provide back word compatibility */
+                             */
+/* methods to provide back word compatibility *//*
+
 
                              
                                     
@@ -35794,7 +37987,9 @@
                                         }
                                 
                              
-                             /* methods to provide back word compatibility */
+                             */
+/* methods to provide back word compatibility *//*
+
 
                              
                                     
@@ -35815,7 +38010,9 @@
                                         }
                                 
                              
-                             /* methods to provide back word compatibility */
+                             */
+/* methods to provide back word compatibility *//*
+
 
                              
                                     
@@ -35836,14 +38033,18 @@
                                         }
                                 
                              
-                             /* methods to provide back word compatibility */
+                             */
+/* methods to provide back word compatibility *//*
+
 
                              
 
 
-        /**
-        *  get the default envelope
         */
+/**
+        *  get the default envelope
+        *//*
+
         private org.apache.axiom.soap.SOAPEnvelope toEnvelope(org.apache.axiom.soap.SOAPFactory factory){
         return factory.getDefaultEnvelope();
         }
@@ -36188,4 +38389,4 @@
 
     
    }
-   
+   */
